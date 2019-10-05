@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Antonimos</title>
-    <link href="css/pruebas/prueba2.css" rel="stylesheet" type="text/css"> 
-	
+    <title>Antonimos</title>
+    <link href="css/pruebas/prueba2.css" rel="stylesheet" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta charset="utf-8">
 
 </head>
 
-<title align= "center">Antonimos</title>
+<title align="center">Antonimos</title>
 
 </head>
 
 <body>
-	
+
 
     <h1><span> Antonimos</span></h1>
-	
+
     <div id="zone1i" align="center"> Caliente</div>
     <div id="zone1d"></div>
 
@@ -27,38 +28,37 @@
     <div id="zone3d"></div>
 
     <div id="zone4i"> </div>
-    <div id="zone4d" align="center">Noche</div>  
+    <div id="zone4d" align="center">Noche</div>
 
-<!-- imagenes draggable-->
+    <!-- imagenes draggable-->
 
-    <img  id="caliente" src="img/prueba3/caliente.jpg">
-    <img  id="frio" src="img/prueba3/helado.jpg">
+    <img id="caliente" src="img/prueba3/caliente.jpg">
+    <img id="frio" src="img/prueba3/helado.jpg">
 
-    <img  id="feliz" src="img/prueba3/feliz.jpg">
-    <img  id= "triste" src="img/prueba3/triste.jpg">
+    <img id="feliz" src="img/prueba3/feliz.jpg">
+    <img id="triste" src="img/prueba3/triste.jpg">
 
-    <img  id= "dia" src="img/prueba3/dia.jpg">
-    <img  id= "noche" src="img/prueba3/noche.jpg">
+    <img id="dia" src="img/prueba3/dia.jpg">
+    <img id="noche" src="img/prueba3/noche.jpg">
 
     <img id="abierto" src="img/prueba3/abierto.jpg">
     <img id="cerrado" src="img/prueba3/cerrado.jpg">
 
     <!-- Boton de enviar    -->
-    <input class="button" type="submit" name="Enviar">
-    
+    <input class="btn btn-primary" type="submit" name="Enviar">
 
 
 
 
-<!-- imagenes draggable-->
 
-	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
- 
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script> 
+    <!-- imagenes draggable-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 
     <script>
-    	
-    	$("#zone1i").droppable();
+        $("#zone1i").droppable();
         $("#zone1d").droppable();
 
         $("#zone2i").droppable();
@@ -67,7 +67,7 @@
         $("#zone3i").droppable();
         $("#zone3d").droppable();
 
-// Imagenes draggable
+        // Imagenes draggable
 
         $("#caliente").draggable();
         $("#frio").draggable();
@@ -80,16 +80,11 @@
 
         $("#abierto").draggable();
         $("#cerrado").draggable();
-
-
-
-
-
     </script>
 
 
 
-<input class="button" type="submit" name="Enviar">
+    <input class="button" type="submit" name="Enviar">
 
 
 </body>

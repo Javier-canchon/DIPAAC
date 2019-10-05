@@ -1,202 +1,128 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>jQuery example: drag and drop</title>
-        <link rel="stylesheet" type="text/css" href="css/prueba1.css">
-        
-    <style>
-            body {
-                font-size: 32px;
-            }
-            #dropzone {
-    top: 150px;
-    width: 250px;
-    height: 250px;
-    float: left;
-    background: url(img/prueba2/cancha.jpg);
-    border: solid 1px;
-    background-size: cover;
-            }
 
+<head>
+    <meta charset="utf-8">
+    <title>jQuery example: drag and drop</title>
+    <link rel="stylesheet" type="text/css" href="css/prueba1.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
 
-            #dropzone2 {
-                top: 400px;
-                width: 250px;
-                height: 250px;
-                float:left;
-                background: url(img/prueba2/mesa.jpg);
-                border: solid 1px;
-                background-size: cover;
-            }
+<body>
+    <div class="container">
+        <h1><span>Comprension de contextos</span></h1>
+        <div class="row">
+            <div class="col"> <img id="cuchara" src="img/cuchara.png"></div>
+            <div class="col" id="leche"></div>
+        </div>
+        <div class="row">
+            <div class="col"><img id="zanahoria" src="img/zanahoria.png"></div>
+            <div class="col" id="ensalada"></div>
+        </div>
 
-           
-             #dropzone4 {
-                top: 400px;
-                width: 250px;
-                height: 250px;
-                float:left;
-                background: url(img/prueba2/conejo.jpg);
-                border: solid 1px;
-                background-size: cover;
-            }
+        <div class="row">
+            <div class="col"><img id="vaca" src="img/vaca.png"></div>
+            <div class="col" id="diente"></div>
 
-            #dropzone5 {
-                top: 400px;
-                width: 250px;
-                height: 250px;
-                float:left;
-                background: url(img/prueba2/diente.png);
-                border: solid 1px;
-                background-size: cover;
+        </div>
+        <div class="row">
+            <div class="col"><img id="jeringa" src="img/prueba2/imagenes sin fondo/jeringa.png"></div>
+            <div class="col" id="balon"></div>
+        </div>
+        <div class="row">
+            <div class="col"><img id="gafas" src="img/gafas.png"></div>
+            <div class="col" id="conejo"></div>
+        </div>
+        <div class="row">
+            <div class="col"><img id="rueda" src="img/prueba2/imagenes sin fondo/rueda.png"></div>
+            <div class="col" id="doctor"></div>
 
-            }
+        </div>
+        <div class="row">
+            <div class="col"> <img id="cepillo" src="img/cepillo.png"></div>
+            <div class="col" id="carro"></div>
+        </div>
 
-                #dropzone6 {
-                top: 400px;
-                width: 250px;
-                height: 250px;
-                float:left;
-                background: url(img/prueba2/leche.jpg);
-                border: solid 1px;
-                background-size: cover;
-            
-            }
+        <div class="row">
+            <div class="col"> <img id="balon_f" src="img/balon.png"></div>
+            <div class="col" id="tabla"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <input id="enviar" class="btn btn-primary" type="submit" name="Enviar">
+                <h1 id="resultado"></h1>
+            </div>
+        </div>
+    </div>
 
-            #dropzone7 {
-                top: 600px;
-                width: 250px;
-                height: 250px;
-                position: absolute;
-                background: url(img/prueba2/carro.jpg);
-                border: solid 1px;
-                background-size: cover;
-                
-            }
-
-            #dropzone8 {
-                top: 600px;
-                width: 250px;
-                height: 250px;
-                left: 250px;
-                position: absolute;
-                background: url(img/prueba2/doctor.jpg);
-                border: solid 1px;
-                background-size: cover;
-            
-            }
-
-             #dropzone9 {
-                top: 600px;
-                width: 250px;
-                height: 250px;
-                left: 500px;
-                position: absolute;
-                background: url(img/prueba2/tabla.jpg);
-                border: solid 1px;
-                background-size: cover;
-            
-            }
-
-
-            
-    
-        </style>
-        
-        
-    </head>
-    
-    <body>
-
-   
-
-    
-    <h1><span>Comprension de contextos</span></h1>
-
-
-
-      <img  id="cuchara" src="img/cuchara.png">
-      <img id="balon_f" src="img/balon.png">
-      <img id="zanahoria" src="img/zanahoria.png">
-      <img  id="cepillo" src="img/cepillo.png">
-      <img  id="vaca" src="img/vaca.png">
-      
-
-      <!-- Second part of images whiout fondo -->
-
-      <img  id="rueda" src="img/prueba2/imagenes sin fondo/rueda.png">
-      <img id="jeringa" src="img/prueba2/imagenes sin fondo/jeringa.png">
-
-      <img  id="gafas" src="img/gafas.png">> 
-
-       <div id="dropzone"></div>
-       <div id="dropzone2"></div> 
-       <div id="dropzone4"></div>
-       <div id="dropzone5"></div>
-       <div id="dropzone6"></div>
-      
-    <!-- Second part of zones -->
-        
-      <div id="dropzone7"></div>
-      <div id="dropzone8"></div>
-      <div id="dropzone9"></div>
-
-
-
-
-
-
-      <!--<p id="palabra">
-        hola </p> -->    
-
-        <!--Boton de enviar  -->
-
-
-        <input  id="enviar" class="button" type="submit" name="Enviar">
-
-
-
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <!-- Also include jQueryUI -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
     <script>
-        
-        $("#dropzone").droppable();
-        $("#dropzone2").droppable();
-        $("#dropzone4").droppable();
-        $("#dropzone5").droppable();
+        var puntos = 0;
+        //drag an drop balon - cancha
+        $("#balon_f").draggable();
+        $("#balon").droppable({
+            tolerance: 'fit',
+            accept: "#balon_f",
+            hoverClass: 'hovered',
+            drop: function(event, ui) {
+                puntos++;
+                //alert(puntos);
+            }
+        });
+
+
+        //drag and drop conejo zanahoria
+        $("#zanahoria").draggable();
+        $("#conejo").droppable({
+            tolerance: 'fit',
+            accept: "#zanahoria",
+            hoverClass: 'hovered',
+            drop: function(event, ui) {
+                puntos++;
+                //alert(puntos);
+            }
+        });
+        $("#cuchara").draggable();
+        $("#ensalada").droppable({
+            // tolerance: 'fit',
+            accept: "#cuchara",
+            drop: function(event, ui) {
+                puntos++;
+                //alert(puntos);
+            }
+        });
+        $("#cepillo").draggable();
+        $("diente").droppable();
+
+
+
+
         $("#dropzone6").droppable();
 
         $("#dropzone7").droppable();
         $("#dropzone8").droppable();
         $("#dropzone9").droppable();
-        
-        
+
+
         $("#winston").draggable();
-        $("#balon_f").draggable(); 
+
         $("#balon_v").draggable();
-        $("#cuchara").draggable();
-        $("#zanahoria").draggable();
-        $("#cepillo").draggable();
+
+
+
         $("#vaca").draggable();
 
         $("#rueda").draggable();
         $("#jeringa").draggable();
         $("#gafas").draggable();
 
-        
-
-
-$("#enviar").click(function(event) {
-    alert();
-});
-
-
-        
+        $("#enviar").click(function(event) {
+            $('#resultado').html("El total de puntos fue: " + puntos);
+        });
     </script>
-    
+</body>
 
-   
-
-    </body>
 </html>
