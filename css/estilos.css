@@ -1,0 +1,16 @@
+
+
+         @font-face {
+    font-family: 'bom';
+    src: url('fonts/bombing-webfont.woff2') format('woff2'),
+         url('fonts/bombing-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+p.palabra{
+	font-family: "bom";
+	display: grid;
+	font-size: 32px;
+}

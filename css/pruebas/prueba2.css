@@ -1,0 +1,194 @@
+
+
+
+body{
+    font-size: 32px;
+}
+
+h1{
+font-size: 30px;
+color: #20bcd5;
+text-align: center;
+
+}
+
+
+
+ #zone1i {
+    top: 80px;
+    width: 130px;
+    height: 100px;
+   position: fixed;
+    right: 700px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    border: solid 5px;
+    background-size: cover;
+
+}
+
+#zone1d {
+    top: 80px;
+    width: 130px;
+    height: 100px;
+   position: fixed;
+    right: 550px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    border: solid 5px;
+    background-size: cover;
+
+}
+
+
+
+#zone2i {
+    top: 210px;
+    width: 130px;
+    height: 100px;
+   position: fixed;
+    right: 700px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    border: solid 5px;
+    background-size: cover;
+
+}
+
+#zone2d {
+    top: 210px;
+    width: 130px;
+    height: 100px;
+   position: fixed;
+    right: 550px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    border: solid 5px;
+    background-size: cover;
+
+}
+
+#zone3i {
+    top: 340px;
+    width: 130px;
+    height: 100px;
+   position: fixed;
+    right: 700px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    border: solid 5px;
+    background-size: cover;
+
+}
+
+#zone3d {
+    top: 340px;
+    width: 130px;
+    height: 100px;
+   position: fixed;
+    right: 550px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    border: solid 5px;
+    background-size: cover;
+
+}
+
+
+#zone4i {
+    top: 470px;
+    width: 130px;
+    height: 100px;
+   position: fixed;
+    right: 700px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    border: solid 5px;
+    background-size: cover;
+
+}
+
+#zone4d {
+    top: 470px;
+    width: 130px;
+    height: 100px;
+   position: fixed;
+    right: 550px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    border: solid 5px;
+    background-size: cover;
+
+}
+#caliente {
+            position: fixed;
+                width: 100px;
+                top :370px;
+                left :1050px;
+            }
+
+
+ #frio {
+            position: fixed;
+                width: 100px;
+                top :370px;
+                left :150px;
+            }
+
+
+#feliz {
+
+			position: fixed;
+				width: 100px;
+				top : 470px;
+				left: 150px;
+
+}
+
+#triste {
+			position: fixed;
+				width: 100px;
+				top : 470px;
+				left :1050px;
+}
+
+#dia {
+			position: fixed;
+				width: 100px;
+				top : 220px;
+				left :1050px;
+}
+
+#noche {
+			position: fixed;
+				width: 100px;
+				top : 220px;
+				left :150px;
+}
+
+
+#cerrado {
+			position: fixed;
+				width: 100px;
+				top : 80px;
+				left :1050px;
+}
+
+#abierto {
+			position: fixed;
+				width: 100px;
+				top : 80px;
+				left :150px;
+}
+
+
+
+
+input.button{
+    top: 580px;
+    width: 100px;
+    height: 70px;
+   position: fixed;
+    right: 400px;
+
+

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>jQuery example: drag and drop</title>
+        <link rel="stylesheet" type="text/css" href="css/prueba1.css">
+        
+    <style>
+            body {
+                font-size: 32px;
+            }
+            #dropzone {
+    top: 150px;
+    width: 250px;
+    height: 250px;
+    float: left;
+    background: url(img/prueba2/cancha.jpg);
+    border: solid 1px;
+    background-size: cover;
+            }
+
+
+            #dropzone2 {
+                top: 400px;
+                width: 250px;
+                height: 250px;
+                float:left;
+                background: url(img/prueba2/mesa.jpg);
+                border: solid 1px;
+                background-size: cover;
+            }
+
+           
+             #dropzone4 {
+                top: 400px;
+                width: 250px;
+                height: 250px;
+                float:left;
+                background: url(img/prueba2/conejo.jpg);
+                border: solid 1px;
+                background-size: cover;
+            }
+
+            #dropzone5 {
+                top: 400px;
+                width: 250px;
+                height: 250px;
+                float:left;
+                background: url(img/prueba2/diente.png);
+                border: solid 1px;
+                background-size: cover;
+
+            }
+
+                #dropzone6 {
+                top: 400px;
+                width: 250px;
+                height: 250px;
+                float:left;
+                background: url(img/prueba2/leche.jpg);
+                border: solid 1px;
+                background-size: cover;
+            
+            }
+
+            #dropzone7 {
+                top: 600px;
+                width: 250px;
+                height: 250px;
+                position: absolute;
+                background: url(img/prueba2/carro.jpg);
+                border: solid 1px;
+                background-size: cover;
+                
+            }
+
+            #dropzone8 {
+                top: 600px;
+                width: 250px;
+                height: 250px;
+                left: 250px;
+                position: absolute;
+                background: url(img/prueba2/doctor.jpg);
+                border: solid 1px;
+                background-size: cover;
+            
+            }
+
+             #dropzone9 {
+                top: 600px;
+                width: 250px;
+                height: 250px;
+                left: 500px;
+                position: absolute;
+                background: url(img/prueba2/tabla.jpg);
+                border: solid 1px;
+                background-size: cover;
+            
+            }
+
+
+            
+    
+        </style>
+        
+        
+    </head>
+    
+    <body>
+
+   
+
+    
+    <h1><span>Comprension de contextos</span></h1>
+
+
+
+      <img  id="cuchara" src="img/cuchara.png">
+      <img id="balon_f" src="img/balon.png">
+      <img id="zanahoria" src="img/zanahoria.png">
+      <img  id="cepillo" src="img/cepillo.png">
+      <img  id="vaca" src="img/vaca.png">
+      
+
+      <!-- Second part of images whiout fondo -->
+
+      <img  id="rueda" src="img/prueba2/imagenes sin fondo/rueda.png">
+      <img id="jeringa" src="img/prueba2/imagenes sin fondo/jeringa.png">
+
+      <img  id="gafas" src="img/gafas.png">> 
+
+       <div id="dropzone"></div>
+       <div id="dropzone2"></div> 
+       <div id="dropzone4"></div>
+       <div id="dropzone5"></div>
+       <div id="dropzone6"></div>
+      
+    <!-- Second part of zones -->
+        
+      <div id="dropzone7"></div>
+      <div id="dropzone8"></div>
+      <div id="dropzone9"></div>
+
+
+
+
+
+
+      <!--<p id="palabra">
+        hola </p> -->    
+
+        <!--Boton de enviar  -->
+
+
+        <input  id="enviar" class="button" type="submit" name="Enviar">
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- Also include jQueryUI -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script>
+        
+        $("#dropzone").droppable();
+        $("#dropzone2").droppable();
+        $("#dropzone4").droppable();
+        $("#dropzone5").droppable();
+        $("#dropzone6").droppable();
+
+        $("#dropzone7").droppable();
+        $("#dropzone8").droppable();
+        $("#dropzone9").droppable();
+        
+        
+        $("#winston").draggable();
+        $("#balon_f").draggable(); 
+        $("#balon_v").draggable();
+        $("#cuchara").draggable();
+        $("#zanahoria").draggable();
+        $("#cepillo").draggable();
+        $("#vaca").draggable();
+
+        $("#rueda").draggable();
+        $("#jeringa").draggable();
+        $("#gafas").draggable();
+
+        
+
+
+$("#enviar").click(function(event) {
+    alert();
+});
+
+
+        
+    </script>
+    
+
+   
+
+    </body>
+</html>

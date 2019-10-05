@@ -1,0 +1,147 @@
+
+
+
+
+
+h1{
+font-size: 30px;
+color: #20bcd5;
+text-align: center;
+
+}
+
+
+/*
+  #dropzone {
+    top: 150px;
+    width: 250px;
+    height: 250px;
+    float: left;
+    background: url(../img/prueba2/cancha.jpg);
+    border: solid 1px;
+    background-size: cover;
+            }
+            
+             
+            #dropzone2 {
+                top: 400px;
+                width: 250px;
+                height: 250px;
+                float:left;
+                background: url(img/prueba2/mesa.jpg);
+                border: solid 1px;
+                background-size: cover;
+            }
+
+           
+            
+
+             #dropzone4 {
+                top: 400px;
+                width: 250px;
+                height: 250px;
+                float:left;
+                background: url(img/prueba2/conejo.jpg);
+                border: solid 1px;
+                background-size: cover;
+            }
+
+            #dropzone5 {
+                top: 400px;
+                width: 250px;
+                height: 250px;
+                float:left;
+                background: url(img/diente.png);
+                border: solid 1px;
+                background-size: cover;
+
+            }
+
+                #dropzone6 {
+                top: 400px;
+                width: 250px;
+                height: 250px;
+                float:left;
+                background: url(img/leche.jpg);
+                border: solid 1px;
+                background-size: cover;
+            
+            }
+*/
+            #balon_f{
+                position: absolute;
+                width: 200px;
+                top: 350px;
+                left: 300px;
+
+            }
+
+            #cuchara{
+                position: absolute;
+                width: 200px;
+                top :350px;
+                left :550px;
+            }
+
+        #zanahoria{
+                position: absolute;
+                width: 200px;
+                top :370px;
+                left :5px;
+
+            }
+
+        #cepillo {
+            position: absolute;
+                width: 200px;
+                top :370px;
+                left :1050px;width: 
+            }
+            
+        #vaca {
+            position: absolute;
+                width: 200px;
+                top :350px;
+                left :800px;            
+
+        }
+
+/* here the second line of images whiouth fondo */
+        #rueda {
+            position: absolute;
+                width: 200px;
+                top :900px;
+                left :550px;   
+                z-index: 1;         
+
+        }
+
+        #jeringa {
+            position: absolute;
+                width: 200px;
+                top :900px;
+                left :300px;   
+                z-index: 1;         
+
+        }
+
+        #gafas{
+        	position: absolute;
+                width: 200px;
+                top :900px;
+                left :25px;   
+                z-index: 1;  
+        }
+
+
+
+input.button{
+    top: 880px;
+    width: 100px;
+    height: 70px;
+   position: absolute;
+    right: 200px;
+
+
+
+
