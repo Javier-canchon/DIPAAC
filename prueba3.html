@@ -15,7 +15,7 @@
 <li>
   <p class="left"> <select id="s1" name="so" >
   <option value="" selected="selected">- selecciona -</option>
-  <option value="pregunta">¿</option>
+  <option id="¿" value="pregunta">¿</option>
   <option value="preguntaf">?</option>
   <option value="coma">,</option>
   <option value="punto">.</option>
@@ -134,13 +134,13 @@ Que golazo <select id="so" name="so">
 
 <li>
 
-<p class="left"> <select id="so" name="so">
+<p class="left"> <select id="iten" name="so">
   <option value="" selected="selected">- selecciona -</option>
   <option value="pregunta">¿</option>
   <option value="preguntaf">?</option>
   <option value="coma">,</option>
   <option value="punto">.</option>
-  <option value="admiracion">¡</option>
+  <option  id="1" value="admiracion">¡</option>
   <option value="admiracionf">!</option>
 </select> Socorro me ahogo <select id="so" name="so">
   <option value="" selected="selected">- selecciona -</option>
@@ -156,8 +156,35 @@ Que golazo <select id="so" name="so">
 
   </ol>
 
-
 <input class="button" type="submit" name="Enviar">
+<h1 id="resultado">has tu mayor esfuerzo :)</h1>
+
+
+<script >
+  /*var  puntos = 0;
+  var adm = "¡"
+
+  if (adm == admiracion) {
+    puntos ++
+    alert (puntos);
+  }*/
+  var puntos = 0;
+  var txtInfo=document.form.txtInfo[][document.form.txtInfo[].selectedIndex].value
+if(iten== 1){
+  puntos ++
+alert("Debe elegir una opción del campo Tipo de Contenido." );
+return false;
+}
+  
+
+  $("#Enviar").click(function(event) {
+            $('#resultado').html("El total de puntos fue: "  + puntos);
+        });
+
+
+
+
+</script>
 
 
 </body>

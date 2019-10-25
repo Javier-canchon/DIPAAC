@@ -15,180 +15,164 @@ text-align: center;
 
 
  #zone1i {
-    top: 80px;
     width: 130px;
-    height: 100px;
-   position: fixed;
-    right: 700px;
+    height: 130px;
     -webkit-border-radius: 20px;
     border-radius: 20px;
     border: solid 5px;
     background-size: cover;
+    margin-bottom: 15px;
 
 }
 
 #zone1d {
-    top: 80px;
     width: 130px;
-    height: 100px;
-   position: fixed;
-    right: 550px;
+    height: 130px;
     -webkit-border-radius: 20px;
     border-radius: 20px;
     border: solid 5px;
     background-size: cover;
-
+    margin-bottom: 15px;
 }
 
 
 
 #zone2i {
-    top: 210px;
     width: 130px;
-    height: 100px;
-   position: fixed;
-    right: 700px;
+    height: 130px;
     -webkit-border-radius: 20px;
     border-radius: 20px;
     border: solid 5px;
     background-size: cover;
-
+    margin-bottom: 15px;
 }
 
 #zone2d {
-    top: 210px;
+   
     width: 130px;
-    height: 100px;
-   position: fixed;
-    right: 550px;
+    height: 130px;
     -webkit-border-radius: 20px;
     border-radius: 20px;
     border: solid 5px;
     background-size: cover;
-
+    margin-bottom: 15px;
 }
 
-#zone3i {
-    top: 340px;
+
+
+#zone3i{
+
     width: 130px;
-    height: 100px;
-   position: fixed;
-    right: 700px;
+    height: 130px;
     -webkit-border-radius: 20px;
     border-radius: 20px;
     border: solid 5px;
     background-size: cover;
+    margin-bottom: 15px;
 
 }
 
-#zone3d {
-    top: 340px;
-    width: 130px;
-    height: 100px;
-   position: fixed;
-    right: 550px;
+
+#zone3d{width: 130px;
+    height: 130px;
     -webkit-border-radius: 20px;
     border-radius: 20px;
     border: solid 5px;
     background-size: cover;
+    margin-bottom: 15px;
 
 }
-
 
 #zone4i {
-    top: 470px;
     width: 130px;
-    height: 100px;
-   position: fixed;
-    right: 700px;
+    height: 130px;
     -webkit-border-radius: 20px;
     border-radius: 20px;
     border: solid 5px;
     background-size: cover;
-
+    margin-bottom: 15px;
 }
 
 #zone4d {
-    top: 470px;
     width: 130px;
-    height: 100px;
-   position: fixed;
-    right: 550px;
+    height: 130px;
     -webkit-border-radius: 20px;
     border-radius: 20px;
     border: solid 5px;
     background-size: cover;
-
+    margin-bottom: 15px;
 }
 #caliente {
-            position: fixed;
-                width: 100px;
-                top :370px;
-                left :1050px;
+            width: 100px;
+            z-index: 1;
+             border: solid 5px;
+             border-radius: 20px;
             }
 
 
  #frio {
-            position: fixed;
-                width: 100px;
-                top :370px;
-                left :150px;
+             width: 100px;
+           z-index: 1;
+           border: solid 5px;
+             border-radius: 20px;
             }
 
 
 #feliz {
 
-			position: fixed;
+    			
 				width: 100px;
-				top : 470px;
-				left: 150px;
-
+			z-index: 1;
+            border: solid 5px;
+             border-radius: 20px;
 }
 
 #triste {
-			position: fixed;
 				width: 100px;
-				top : 470px;
-				left :1050px;
+			    z-index: 1;
+                border: solid 5px;
+             border-radius: 20px;
 }
 
 #dia {
-			position: fixed;
+			
 				width: 100px;
-				top : 220px;
-				left :1050px;
+				z-index: 1;
+                border: solid 5px;
+             border-radius: 20px;
 }
 
 #noche {
-			position: fixed;
+			
 				width: 100px;
-				top : 220px;
-				left :150px;
+				z-index: 1;
+                border: solid 5px;
+             border-radius: 20px;
 }
 
 
 #cerrado {
-			position: fixed;
+			
 				width: 100px;
-				top : 80px;
-				left :1050px;
+				z-index: 1;
+                border: solid 5px;
+             border-radius: 20px;
 }
 
 #abierto {
-			position: fixed;
+			
 				width: 100px;
-				top : 80px;
-				left :150px;
-}
+				z-index: 1;
+                border: solid 5px;
+             border-radius: 20px;
+                }
 
 
 
 
 input.button{
-    top: 580px;
     width: 100px;
     height: 70px;
-   position: fixed;
-    right: 400px;
-
+   background-color: #26D4E4;
+   
 

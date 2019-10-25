@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html>
 
 <head>
@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container">  
         <h1><span>Comprension de contextos</span></h1>
         <div class="row">
             <div class="col"> <img id="cuchara" src="img/cuchara.png"></div>
@@ -50,7 +50,7 @@
         <div class="row">
             <div class="col">
                 <input id="enviar" class="btn btn-primary" type="submit" name="Enviar">
-                <h1 id="resultado"></h1>
+                <h1 id="resultado">has tu mayor esfuerzo :)</h1>
             </div>
         </div>
     </div>
@@ -64,7 +64,7 @@
         //drag an drop balon - cancha
         $("#balon_f").draggable();
         $("#balon").droppable({
-            tolerance: 'fit',
+            //tolerance: 'fit',
             accept: "#balon_f",
             hoverClass: 'hovered',
             drop: function(event, ui) {
@@ -77,7 +77,7 @@
         //drag and drop conejo zanahoria
         $("#zanahoria").draggable();
         $("#conejo").droppable({
-            tolerance: 'fit',
+           // tolerance: 'fit',
             accept: "#zanahoria",
             hoverClass: 'hovered',
             drop: function(event, ui) {
@@ -85,40 +85,82 @@
                 //alert(puntos);
             }
         });
+
+        //drag and drop ensalada cuchara
         $("#cuchara").draggable();
         $("#ensalada").droppable({
             // tolerance: 'fit',
+            hoverClass: 'hovered',
             accept: "#cuchara",
+
             drop: function(event, ui) {
                 puntos++;
                 //alert(puntos);
             }
         });
+
+        //drag and drop diente cepillo
         $("#cepillo").draggable();
-        $("diente").droppable();
+        $("#diente").droppable({
+            // tolerance: 'fit',
+            accept: "#cepillo",
+            drop: function(event, ui) {
+                puntos++;
+                //alert(puntos);
+            }
+        });
 
 
-
-
-        $("#dropzone6").droppable();
-
-        $("#dropzone7").droppable();
-        $("#dropzone8").droppable();
-        $("#dropzone9").droppable();
-
-
-        $("#winston").draggable();
-
-        $("#balon_v").draggable();
-
-
-
+        //drag and drop vaca leche
         $("#vaca").draggable();
+        $("#leche").droppable({
+            // tolerance: 'fit',
+            accept: "#vaca",
+            drop: function(event, ui) {
+                puntos++;
+                //alert(puntos);
+            }
+        });
 
+        //drag and drop carro rueda
         $("#rueda").draggable();
-        $("#jeringa").draggable();
-        $("#gafas").draggable();
+        $("#carro").droppable({
+            // tolerance: 'fit',
+            accept: "#rueda",
+            drop: function(event, ui) {
+                puntos++;
+                //alert(puntos);
+            }
+        });
 
+
+        //drag and drop doctor jeringa
+        $("#jeringa").draggable();
+        $("#doctor").droppable({
+            // tolerance: 'fit',
+            accept: "#jeringa",
+            drop: function(event, ui) {
+                puntos++;
+                //alert(puntos);
+            }
+        });
+
+        //drag and drop tablas gafas
+
+        $("#gafas").draggable();
+        $("#tabla").droppable({
+            // tolerance: 'fit',
+            accept: "#gafas",
+            drop: function(event, ui) {
+                puntos++;
+                //alert(puntos);
+            }
+        });
+
+
+        
+        
+        // boton de resultado
         $("#enviar").click(function(event) {
             $('#resultado').html("El total de puntos fue: " + puntos);
         });

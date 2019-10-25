@@ -87,53 +87,64 @@
             background-size: cover;
         }
         
+/* pictures draggable*/
+
         #balon_f {
             position: relative;
             width: 200px;
+            z-index: 1;
         }
         
         #cuchara {
             position: relative;
             width: 200px;
+            z-index: 1;
         }
         
         #zanahoria {
             position: relative;
             width: 200px;
+            z-index: 1;
         }
         
         #cepillo {
             position: relative;
             width: 200px;
+            z-index: 1;
         }
         
         #vaca {
             position: relative;
             width: 200px;
+            z-index: 1;
         }
         /* here the second line of images whiouth fondo */
         
         #rueda {
             position: relative;
             width: 200px;
+            z-index: 1;
         }
         
         #jeringa {
             position: relative;
             width: 200px;
+            z-index: 1;
         }
         
         #gafas {
             position: relative;
             width: 200px;
+            z-index: 1;
         }
         
         input.button {
-            width: 100px;
-            height: 70px;
-            position: relative;
+           width: 100px;
+    height: 70px;
+   background-color: #26D4E4;
+   
         }
         
-        .hovered {
-            border: 5px solid #000 !important;
-        }
+      /*  .hovered {
+            border: 5px solid #26ECEA !important;
+        }*/
