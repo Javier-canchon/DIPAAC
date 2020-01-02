@@ -1,4 +1,7 @@
 var puntos = 0;
+var omisiones = 8;
+
+
 //drag an drop caliente - zone1i
 $("#caliente").draggable();
 $("#zone1i").droppable({
@@ -7,6 +10,7 @@ $("#zone1i").droppable({
     //hoverClass: 'hovered',
     drop: function(event, ui) {
         puntos++;
+        omisiones--;
         // alert(puntos);
     }
 });
@@ -16,7 +20,8 @@ $("#frio").draggable();
 $("#zone1d").droppable({
         accept: "#frio",
         drop: function(event, ui) {
-            puntos++
+            puntos++;
+            omisiones--;
             //alert(puntos);
         }
     }
@@ -30,7 +35,8 @@ $("#feliz").draggable();
 $("#zone2i").droppable({
         accept: "#feliz",
         drop: function(event, ui) {
-            puntos++
+            puntos++;
+            omisiones--;
             //alert(puntos);
         }
     }
@@ -42,7 +48,8 @@ $("#triste").draggable();
 $("#zone2d").droppable({
         accept: "#triste",
         drop: function(event, ui) {
-            puntos++
+            puntos++;
+            omisiones--;
             //alert(puntos);
         }
     }
@@ -55,7 +62,8 @@ $("#cerrado").draggable();
 $("#zone3i").droppable({
         accept: "#cerrado",
         drop: function(event, ui) {
-            puntos++
+            puntos++;
+            omisiones--;
             //alert(puntos);
         }
     }
@@ -67,7 +75,8 @@ $("#abierto").draggable();
 $("#zone3d").droppable({
         accept: "#abierto",
         drop: function(event, ui) {
-            puntos++
+            puntos++;
+            omisiones--;
             //alert(puntos);
         }
     }
@@ -81,7 +90,8 @@ $("#dia").draggable();
 $("#zone4i").droppable({
     accept: "#dia",
     drop: function(event, ui) {
-        puntos++
+        puntos++;
+        omisiones--;
         //alert(puntos);
     }
 });
@@ -92,14 +102,40 @@ $("#noche").draggable();
 $("#zone4d").droppable({
     accept: "#noche",
     drop: function(event, ui) {
-        puntos++
+        puntos++;
+        omisiones--;
         //alert(puntos);
     }
 });
 
+
+/*
+// puntos por comisiones
+$("#frio").draggable();
+$("#caliente").draggable();
+$("#triste").draggable();
+$("#feliz").draggable();
+$("#cerrado").draggable();
+$("#abierto").draggable();
+$("#dia").draggable();
+
+$("#zone1i").droppable({
+    accept: "#dia",
+    drop: function(event, ui) {
+        comision++;
+         }
+});
+*/
+
+
+//var comision = puntos - 4;
+
+
 // boton de resultado
 $("#enviar").click(function(event) {
-    $('#resultado').html("El total de puntos fue: " + puntos / 2);
+    $('#resultado').html(" El total de puntos fue: " + puntos );
+    $('#omisiones').html("El total de puntos por errores fue " + omisiones );
+   //$('#comision').html("El total de puntos por comision fue " + comision); 
 
 
     //aquí se almacenan las variables guardadas por el objeto localstorage o sessionstorage
@@ -108,6 +144,6 @@ $("#enviar").click(function(event) {
     var segundo = JSON.parse(sessionStorage.getItem("segundo"));
     var minuto = JSON.parse(sessionStorage.getItem("minuto"));
 
-    $('#resultado').append("El estudiante se demoró: " + segundo + " segundos " + "y " + minuto + " minutos");
+    $('#resultado').append(" El estudiante se demoró: " + segundo + " segundos " + "y " + minuto + " minutos");
 
 });
