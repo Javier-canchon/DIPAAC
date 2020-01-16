@@ -36,6 +36,16 @@ p{
 
 /* this is it the first line of the letters*/
 
+#zone1i {
+    width: 130px;
+    height: 130px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    border: solid 5px;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+
 #hrJuan{
   top: 150px;
   height: 5px;

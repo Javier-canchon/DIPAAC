@@ -1,12 +1,22 @@
  
+var aciertos = 0;
+var errores = 0;
+var omisiones = 10; 
 
-src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js";
-type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js";
+// primera pregunta
+$("#Casa").click(function(event) {
+	$('#Casa').css('color', 'black');
+aciertos++;
+omisiones--;
+alert(aciertos);
+$('#Casa').unbind("click");
+$('#Caza').unbind("click");
+});
 
-$("#Juan1").draggable();
-$("#Juan2").draggable();
-$("#Juan3").draggable();
-$("#Juan4").draggable();
-
-
-alert("hola");
+$("#Caza").click(function(event) {
+	$('#Caza').css('color', 'black');
+errores++;
+alert(errores);
+$('#Casa').unbind("click");
+$('#Caza').unbind("click");
+});
