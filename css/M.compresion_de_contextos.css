@@ -1,0 +1,35 @@
+h1{
+	font-size: 30px;
+color: #20bcd5;
+/*text-align: center;*/
+
+}
+
+
+#titulo{
+   
+            color: #20bcd5;
+            text-align: center;
+            border: solid 3px;
+
+}
+
+
+#PMAS{
+
+font-size: 30PX;
+
+
+}
+
+
+#boton{
+
+	display: block;
+           width: 100px;
+   height: 40px;
+   background-color: #26D4E4;
+   margin-right: auto;
+   margin-left: auto;
+   
+    }
