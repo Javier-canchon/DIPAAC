@@ -1,16 +1,16 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="utf-8">
-    <title>jQuery example: drag and drop</title>
+    <title>Atención selectiva</title>
     <link rel="stylesheet" type="text/css" href="css/prueba1.css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="container">  
-        <h1><span>Atención Selectiva</span></h1>
+    <div class="container">
+        <!--<h1 id="titulo">Atención Selectiva</h1>-->
         <h2>Comprension de contextos</h2>
         <div class="row">
             <div class="col"> <img id="cuchara" src="img/cuchara.png"></div>
@@ -49,9 +49,13 @@
             <div class="col" id="tabla"></div>
         </div>
         <div class="row">
+
             <div class="col">
-                <input id="enviar" class="btn btn-primary" type="submit" name="Enviar">
+                <button class="btn btn-primary" id="boton" onclick="location.href='Menu.html'">Menu</button>
+            </div>
+            <div class="col"><input id="enviar" class="btn btn-primary" type="submit" name="Enviar">
                 <h1 id="resultado">has tu mayor esfuerzo :)</h1>
+                <h1 id="omisiones"></h1>
             </div>
         </div>
     </div>
@@ -60,112 +64,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <!-- Also include jQueryUI -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-    <script>
-        var puntos = 0;
-        //drag an drop balon - cancha
-        $("#balon_f").draggable();
-        $("#balon").droppable({
-            //tolerance: 'fit',
-            accept: "#balon_f",
-            hoverClass: 'hovered',
-            drop: function(event, ui) {
-                puntos++;
-                //alert(puntos);
-            }
-        });
 
+   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
 
-        //drag and drop conejo zanahoria
-        $("#zanahoria").draggable();
-        $("#conejo").droppable({
-           // tolerance: 'fit',
-            accept: "#zanahoria",
-            hoverClass: 'hovered',
-            drop: function(event, ui) {
-                puntos++;
-                //alert(puntos);
-            }
-        });
+    <script type="text/javascript" src="JS/cronometro.js"></script>
+    <script type="text/javascript" src="JS/prueba1.js"></script>
 
-        //drag and drop ensalada cuchara
-        $("#cuchara").draggable();
-        $("#ensalada").droppable({
-            // tolerance: 'fit',
-            hoverClass: 'hovered',
-            accept: "#cuchara",
-
-            drop: function(event, ui) {
-                puntos++;
-                //alert(puntos);
-            }
-        });
-
-        //drag and drop diente cepillo
-        $("#cepillo").draggable();
-        $("#diente").droppable({
-            // tolerance: 'fit',
-            accept: "#cepillo",
-            drop: function(event, ui) {
-                puntos++;
-                //alert(puntos);
-            }
-        });
-
-
-        //drag and drop vaca leche
-        $("#vaca").draggable();
-        $("#leche").droppable({
-            // tolerance: 'fit',
-            accept: "#vaca",
-            drop: function(event, ui) {
-                puntos++;
-                //alert(puntos);
-            }
-        });
-
-        //drag and drop carro rueda
-        $("#rueda").draggable();
-        $("#carro").droppable({
-            // tolerance: 'fit',
-            accept: "#rueda",
-            drop: function(event, ui) {
-                puntos++;
-                //alert(puntos);
-            }
-        });
-
-
-        //drag and drop doctor jeringa
-        $("#jeringa").draggable();
-        $("#doctor").droppable({
-            // tolerance: 'fit',
-            accept: "#jeringa",
-            drop: function(event, ui) {
-                puntos++;
-                //alert(puntos);
-            }
-        });
-
-        //drag and drop tablas gafas
-
-        $("#gafas").draggable();
-        $("#tabla").droppable({
-            // tolerance: 'fit',
-            accept: "#gafas",
-            drop: function(event, ui) {
-                puntos++;
-                //alert(puntos);
-            }
-        });
-
-
-        
-        
-        // boton de resultado
-        $("#enviar").click(function(event) {
-            $('#resultado').html("El total de puntos fue: " + puntos);
-        });
-    </script>
 </body>
 
 </html>

@@ -15,14 +15,16 @@ text-align: center;
 
 
 
-input.button{
-    top: 470px;
-    width: 130px;
-    height: 100px;
-   position: fixed;
-    right: 200px;
-  }
+#boton{
 
+  display: block;
+           width: 100px;
+   height: 40px;
+   background-color: #26D4E4;
+   margin-right: auto;
+   margin-left: auto;
+   
+        }
  
   select
   {
@@ -35,4 +37,15 @@ input.button{
   	text-align: left;
   }
   
+#umb {
 
+  width:300px; 
+  height:300px;
+}
+
+
+#titulo{
+   
+            color: #20bcd5;
+            text-align: center;
+            border: solid 3px;

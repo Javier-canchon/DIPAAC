@@ -131,7 +131,7 @@ $("#item_sextoA").click(function() {
 	if (admiracion == item_sextoA ) {
 		aciertos++;
 		omisiones--;
-		alert(aciertos);
+		//alert(aciertos);
 		$('#item_sextoA').prop('disabled', true);
 	}
 });
@@ -141,7 +141,7 @@ $("#item_sextoB").click(function() {
 	if (admiracionf == item_sextoB ) {
 		aciertos++; 
 		omisiones--;
-		alert(aciertos);
+		//alert(aciertos);
 		$('#item_sextoB').prop('disabled', true);
 	}
 });
@@ -156,5 +156,10 @@ $("#enviar").click(function(event) {
     //var minuto = JSON.parse(sessionStorage.getItem("minuto"));
 
     //$('#resultado').append("  El estudiante se demoró: " + segundo + " segundos " + "y " + minuto + " minutos");
+
+ var segundo = JSON.parse(sessionStorage.getItem("segundo"));
+    var minuto = JSON.parse(sessionStorage.getItem("minuto"));
+
+    $('#resultado').append(" El estudiante se demoró: " + segundo + " segundos " + "y " + minuto + " minutos");
 
 });

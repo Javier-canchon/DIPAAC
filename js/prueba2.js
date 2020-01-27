@@ -1,4 +1,4 @@
-init_contadorTa("taComentario","contadorTaComentario", 140);
+init_contadorTa("taComentario","contadorTaComentario", 240);
 
 function init_contadorTa(idtextarea, idcontador,max)
 {
