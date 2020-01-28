@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Recuperacion lexico semantica</title>
+	<link href="css/pruebas/prueba8.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<!--
+<form action="/action_page.php">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+  <input type="submit" value="Submit">
+</form>
+-->
+
+  <div class="container">
+
+
+    <h1 id= "titulo"><span>l&eacutexico semantico</span></h1>
+<!-- Espacio del item casa-->
+<div class="row">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4"><img id = "Tren"src="img/prueba8/tren.jpg">Medios de </div>
+  <div class="col-sm-4"></div>
+</div>
+
+<div class="row">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4"><input id="tren" type="text" name="fname"></button><button id = guardar class="btn btn-primary">Guardar</button>
+  <div class="col-sm-4"></div>
+</div>
+</div>
+
+
+<div class="row">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4"> <hr id="linea"></div>
+  <div class="col-sm-4"></div>
+</div>
+
+<!--Espacio del item  -->
+
+<!-- Espacio del item hablando/ablando-->
+<div class="row">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4"><img  id= hablando src="img/prueba5/hablando.webp"></div>
+  <div class="col-sm-4"></div>
+</div>
+
+<div class="row">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4"><button id = Hablando class="btn btn-primary">Hablando</button><button id = Ablando class="btn btn-primary">Ablando</button>
+  <div class="col-sm-4"></div>
+</div>
+</div>
+
+<!--Espacio del item  -->
+
+<div class="row">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4"> <hr id="linea"></div>
+  <div class="col-sm-4"></div>
+</div>
+
+<!-- Espacio del item hablando/ablando-->
+<div class="row">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4"><img  id= vaso src="img/prueba5/vaso.jpg"></div>
+  <div class="col-sm-4"></div>
+</div>
+
+<div class="row">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4"><button id = "Bazo" class="btn btn-primary">Bazo</button><button id = "Vaso" class="btn btn-primary">Vaso</button>
+  <div class="col-sm-4"></div>
+</div>
+</div>
+
+<!-- linea horizontal vaso-->
+<div class="row">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4"> <hr id="linea"></div>
+  <div class="col-sm-4"></div>
+</div>
+
+
+
+
+<!-- Espacio del item Ola/Hola-->
+<div class="row">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4"><img  id= ola src="img/prueba5/ola.jpg"></div>
+  <div class="col-sm-4"></div>
+</div>
+
+<div class="row">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4"><button id = "¡Hola!" class="btn btn-primary">¡Hola!</button><button id = "Ola" class="btn btn-primary">Ola</button>
+  <div class="col-sm-4"></div>
+</div>
+</div>
+
+<!-- linea horizontal vaso-->
+<div class="row">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4"> <hr id="linea"></div>
+  <div class="col-sm-4"></div>
+</div>
+
+
+
+
+
+<!-- Espacio del item Hora/ora-->
+<div class="row">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4"><img  id= "vello" src="img/prueba5/vello.jpg"></div>
+  <div class="col-sm-4"></div>
+</div>
+
+<div class="row">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4"><button id = "Bello" class="btn btn-primary">Bello</button><button id = "Vello" class="btn btn-primary">Vello</button>
+  <div class="col-sm-4"></div>
+</div>
+</div>
+
+<!-- linea horizontal vaso-->
+<div class="row">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4"> <hr id="linea"></div>
+  <div class="col-sm-4"></div>
+</div>
+
+
+<div class="row">
+
+            <div class="col">
+                <input id="enviar" class="btn btn-primary" type="submit" name="Enviar">
+                <h1 id="resultado">has tu mayor esfuerzo :)</h1>
+                <h1 id="Errores"></h1>
+                <h1 id="omision"></h1>
+            </div>
+
+         <!--   <div class="col"><button class="btn btn-primary" id="boton"onclick="location.href='Menu.html'" >Menu</button></div>
+        -->
+
+        </div>
+
+        <div id="hour"></div>
+        <div id="minute"></div>
+        <div id="second"></div>
+
+
+
+
+</div>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- Also include jQueryUI -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+    <script type="text/javascript" src="js/cronometro.js"></script>
+
+<script type="text/javascript" src="js/prueba8.js"></script>
+
+	
+</body>
+</html>

@@ -1,0 +1,142 @@
+
+
+
+
+
+input[type=text] {
+  border: 2px solid blue;
+  border-radius: 4px;
+}
+
+
+#titulo{
+   
+            color: #20bcd5;
+            text-align: center;
+            border: solid 3px;
+        }
+
+
+
+#Tren{
+	width:250px;
+    height:250px;
+	margin-bottom: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+
+
+#guardar {
+	float: right;
+}
+
+/* SEGUNDO ITEM HABLANDO ABLANDO   */
+
+#hablando{
+	width:250px;
+    height:250px;
+	margin-bottom: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#Ablando {float: left;
+}
+
+
+#Hablando {
+	float: right;
+}
+
+
+#linea{
+
+	width: 100%;
+	height: 40px;
+}
+/*--------------------------------*/
+
+#vaso{
+	width:250px;
+    height:250px;
+	margin-bottom: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#Vaso {float: left;
+}
+
+
+#Bazo {
+	float: right;
+}
+
+
+
+/*--------------------------------*/
+
+#ola{
+	width:250px;
+    height:250px;
+	margin-bottom: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#Hola {float: left;
+}
+
+
+#Ola {
+	float: right;
+}
+
+
+/*--------------------------------*/
+
+#hora{
+	width:250px;
+    height:250px;
+	margin-bottom: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#Ora {float: left;
+}
+
+
+#Hora {
+	float: right;
+}
+
+
+/*--------------------------------*/
+
+#vello{
+	width:250px;
+    height:250px;
+	margin-bottom: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#Vello {float: left;
+}
+
+
+#Bello {
+	float: right;
+}
