@@ -40,43 +40,31 @@
 
 
 
+
 <script type="text/javascript">
   
 
-var puntajep1 = 8;
- 
- 
+var puntajep1 = ["0","1","2"];
 
  $(document).ready(function() {
-
-var arr1 = ["0","1","2"]; 
-
-
    $('#sortable').sortable();
   // $('<br><br><div id=buttonDiv><button>Get Order of Elements</button></div>').appendTo('body');
    $('button').button().click(function() {
-    var itemOrder = $('#sortable').sortable("toArray");
+   var itemOrder = $('#sortable').sortable("toArray");
+   //for (var i = 0; i < itemOrder.length; i++) {
 
-   for (var i = 0; i < itemOrder.length; i++) {
+        if (puntajep1[0] === itemOrder[0]  && puntajep1[1] === itemOrder[1] && puntajep1[2] === itemOrder[2] ) { 
+          alert("aprobado");
 
-   for(var j= 0; j< arr1.length; j++)  {
-
-    if (itemOrder[i]==arr1[j]){
-       puntajep1++
-      alert(puntajep1);
-
-    }
-
-   }   
-   //alert("Position: " + i + " ID: " + itemOrder[i]);
-       }
-
-              
-          })
+        //}
+   // alert("Position: " + i + " ID: " + itemOrder[i]);
+                }
+            })
 
         });
 
 </script>
+
 
 
 

@@ -10,9 +10,10 @@ $('#guardar1').click(function() {
      	aciertos++
      	$('#guardar1').unbind("click");
      	$('#guardar1').css('color', 'black');
-     	alert(aciertos);
+    
        
     } else  {
+    	errores++
     	$('#guardar1').unbind("click");
         $('#guardar1').css('color', 'black');
        
@@ -27,13 +28,102 @@ $('#guardar2').click(function() {
    if ($('#vestir').val() === 'vestir'||$('#vestir').val() === 'ropa'||$('#vestir').val() === 'bestir') 
      {
      	aciertos++
-     	$('#guardar1').unbind("click");
-     	$('#guardar1').css('color', 'black');
-     	alert(aciertos);
+     	$('#guardar2').unbind("click");
+     	$('#guardar2').css('color', 'black');
+     	
        
     } else  {
-    	$('#guardar1').unbind("click");
-        $('#guardar1').css('color', 'black');
+    	errores++
+    	$('#guardar2').unbind("click");
+        $('#guardar2').css('color', 'black');
        
    }
+});
+
+
+/*----TERCERA PREGUNTA--------------------------------*/
+
+
+
+$('#guardar3').click(function() {
+
+   if ($('#frutas').val() === 'frutas'||$('#frutas').val() === 'fruta') 
+     {
+     	aciertos++
+     	$('#guardar3').unbind("click");
+     	$('#guardar3').css('color', 'black');
+     	
+       
+    } else  {
+    	errores++
+    	$('#guardar3').unbind("click");
+        $('#guardar3').css('color', 'black');
+       
+   }
+});
+
+
+/*----CUARTA PREGUNTA--------------------------------*/
+
+
+
+$('#guardar4').click(function() {
+
+   if ($('#cocina').val() === 'cocina'||$('#cocina').val() === 'Cocina'||$('#cocina').val() === 'cosina') 
+     {
+     	aciertos++
+     	$('#guardar4').unbind("click");
+     	$('#guardar4').css('color', 'black');
+     	
+       
+    } else  {
+    		errores++
+    	$('#guardar4').unbind("click");
+        $('#guardar4').css('color', 'black');
+       
+   }
+});
+
+
+/*----QUINTA PREGUNTA--------------------------------*/
+
+
+
+$('#guardar5').click(function() {
+
+   if ($('#colores').val() === 'colores'||$('#colores').val() === 'Colores') 
+     {
+     	aciertos++
+     	$('#guardar5').unbind("click");
+     	$('#guardar5').css('color', 'black');
+     	
+       
+    } else  {
+    		errores++
+    	$('#guardar5').unbind("click");
+        $('#guardar5').css('color', 'black');
+       
+   }
+});
+
+
+
+
+
+// boton-----------------------------------------
+$("#enviar").click(function(event) {
+    $('#resultado').html("El total de puntos fue: " + aciertos);
+    $('#omision').html("El puntaje de omisiones fue: " + omisiones);
+    $('#Errores').html("El puntaje de errores fue: " + errores);
+
+    //var segundo = JSON.parse(sessionStorage.getItem("segundo"));
+    //var minuto = JSON.parse(sessionStorage.getItem("minuto"));
+
+    //$('#resultado').append("  El estudiante se demoró: " + segundo + " segundos " + "y " + minuto + " minutos");
+
+ var segundo = JSON.parse(sessionStorage.getItem("segundo"));
+    var minuto = JSON.parse(sessionStorage.getItem("minuto"));
+
+    $('#resultado').append(" El estudiante se demoró: " + segundo + " segundos " + "y " + minuto + " minutos");
+
 });
