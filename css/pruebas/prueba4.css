@@ -1,4 +1,4 @@
- @font-face {
+/* @font-face {
     font-family: 'bom';
     src: url('fonts/bombing-webfont.woff2') format('woff2'),
          url('fonts/bombing-webfont.woff') format('woff');
@@ -7,19 +7,110 @@
 
 }
 
-
+*/
 /*p.palabra{
 	font-family: "bom";
 	display: grid;
 }*/
 
 
-h1{
-font-size: 30px;
-color: #20bcd5;
-text-align: center;
+
+
+#titulo{
+   
+            color: #20bcd5;
+            text-align: center;
+            border: solid 3px;
+        }
+
+
+#linea{
+  color: blue;
+  width: 100%;
+  height: 50px;
+}
+
+
+
+/*--------------------------------------------------*/
+
+#sortable1 li{
+      display: inline;
+      padding-left: 3px;
+      padding-right: 3px;
+      border :solid 2px;
+      cursor: pointer;
+      font-size: 30px;
+
+
+    }
+
+
+#Oso{
+  width:350px;
+    height:350px;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
 }
+
+
+
+/*--------------------------------------------------*/
+
+#sortable2 li{
+      display: inline;
+      padding-left: 3px;
+      padding-right: 3px;
+      border :solid 2px;
+      cursor: pointer;
+      font-size: 30px;
+
+
+    }
+
+
+#Pelota{
+  width:350px;
+    height:350px;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+
+/*--------------------------------------------------*/
+
+#sortable3 li{
+      display: inline;
+      padding-left: 2px;
+      padding-right: 2px;
+      border :solid 2px;
+      cursor: pointer;
+      font-size: 30px;
+
+
+    }
+
+
+#Maria{
+  width:350px;
+    height:350px;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+
+
 
 p{
 	font-size: 35px;
@@ -33,199 +124,3 @@ p{
 	cursor: pointer;
 
 }
-
-/* this is it the first line of the letters*/
-
-#zone1i {
-    width: 130px;
-    height: 130px;
-    -webkit-border-radius: 20px;
-    border-radius: 20px;
-    border: solid 5px;
-    background-size: cover;
-    margin-bottom: 15px;
-}
-
-#hrJuan{
-  top: 150px;
-  height: 5px;
-  width: 33%;
-  position: absolute;
-  left: 140px;
-  background-color: green;
-
-}
-/* this is it the first group of words whithout order*/
-
-#Juan1{
-
-  top: 150px;
-  left: 242px;
-  position: absolute;
-  width: 50px;
-  height: 50px;
-}
-
-#Juan2{
-
-  top: 150px;
-  left: 150px;
-  position: absolute;
-  width: 50px;
-  height: 50px;
-}
-
-#Juan3{
-
-  top: 150px;
-  left: 432px;
-  position: absolute;
-  width: 50px;
-  height: 50px;
-}
-
-#Juan4{
-
-  top: 150px;
-  left: 322px;
-  position: absolute;
-  width: 50px;
-  height: 50px;
-}
-
-/* first line that divide*/
-#hr1{
-
-  top:200px;
-
-
-
-}
-
-
-/* this is it the second line of the letters*/
-
-#hrperro{
-  top: 350px;
-  height: 5px;
-  width: 33%;
-  position: absolute;
-  left: 140px;
-  background-color: green;
-
-}
-
-
-/* second list of words */
-
-
-#perro1{
-  position: absolute;
-  top:350px;
-  left:240px;
-  width: 120px;
-  height: 50px;
-  
-}
-
-#perro2{
-  top:350px;
-  left:152px;
-  position: absolute;
-  width: 50px;
-  height: 50px;
-}
-
-#perro3{
-  top: 350px;
-  left: 465px;
-  position: absolute;
-  width: 100px;
-  height: 50px;
-
-}
-
-#perro4{
-  top:350px;
-  left:367px;
-  position: absolute;
-  width: 100px;
-  height: 50px;
-  
-}
-
-/* third line  */
-#hrpajaros{
-  top: 550px;
-  height: 5px;
-  width: 33%;
-  position: absolute;
-  left: 140px;
-  background-color: green;
-
-}
-/* third part of sentences or words  */
-
-
-#pajaros1{
-  position: absolute;
-  top:550px;
-  left:244px;
-  width: 180px;
-  height: 50px;
-  
-}
-
-#pajaros2{
-  top:550px;
-  left:138px;
-  position: absolute;
-  width: 50px;
-  height: 50px;
-}
-
-#pajaros3{
-  top: 550px;
-  left: 518px;
-  position: absolute;
-  width: 50px;
-  height: 50px;
-
-}
-
-#pajaros4{
-  top:550px;
-  left:416px;
-  position: absolute;
-  width: 100px;
-  height: 50px;
-  
-}
-
-/* fourth line  */
-#hrlaura{
-  top: 750px;
-  height: 5px;
-  width: 33%;
-  position: absolute;
-  left: 140px;
-  background-color: green;
-
-}
-/* fourth part of sentences or words  */
-
-
-
-
-
-
-
-/* button next */
-input.button{
-    top: 580px;
-    width: 100px;
-    height: 70px;
-   position: fixed;
-    right: 400px;
-
-

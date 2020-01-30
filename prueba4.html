@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>prueba 5 de organización de oraciones</title>
+	<title>prueba 4 de organización de oraciones</title>
 </head>
 <link href="css/pruebas/prueba4.css" rel="stylesheet" type="text/css">
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -10,126 +10,142 @@
 <body>
 
 <div class="container">
-<h1><span>Sujeto y predicado</span></h1>
+<h1 id= "titulo"><span>Secuencia de palabras</span></h1>
 
 
-<div class="row" >
-<div class= "col">
-<hr id="hrmenu">
 
-
-<!--first line-->
-
-
-<hr id="hrJuan">
-
-
-<!--first sentences -->
-<p  id="Juan1"> Juan </p>
-<p  id="Juan2"> juega </p>
-<p  id="Juan3"> a la </p>
-<p  id="Juan4"> pelota. </p>
+<div class="row">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4"><img id = "Oso"src="img/prueba4/oso.png"></div>
+  <div class="col-sm-4"></div>
 </div>
 
+<div class="row">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4">
+  	<ul id="sortable1"> 
+   <li id= "2">duerme</li> 
+   <li id= "1">Oso</li> 
+   <li id= "0">El</li> 
+    </ul>
+  </div>
+  <div class="col-sm-4"></div>
+   </div>
+
+
+<div class="row">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4"> <hr id="linea"></div>
+  <div class="col-sm-4"></div>
 </div>
 
 
+<!-------Segundo item----------------------------------------------- -->
 
 
-<!--second line-->
-<hr id="hrperro">
+<div class="row">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4"><img id = "Pelota"src="img/prueba4/pelota.jpg"></div>
+  <div class="col-sm-4"></div>
+</div>
 
-<!-- Second sentences -->
+<div class="row">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4">
+  	<ul id="sortable2"> 
+   <li id= "2">verde</li> 
+   <li id= "1">pelota</li> 
+   <li id= "0">La</li> 
+    </ul>
+  </div>
+  <div class="col-sm-4"></div>
+   </div>
 
-<p  id="perro1"> El perro </p>
-<p  id="perro2"> ladra </p>
-<p  id="perro3"> por la</p>
-<p  id="perro4"> noche </p>
 
-<!--third line -->
-<hr id="hrpajaros">
-
-
-<!-- Third sentences -->
+<div class="row">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4"> <hr id="linea"></div>
+  <div class="col-sm-4"></div>
+</div>
 
 
-<p  id="pajaros1"> Los pajaros </p>
-<p  id="pajaros2"> vuelan </p>
-<p  id="pajaros3"> hacia</p>
-<p  id="pajaros4"> el mar </p>
+<!-------Tercer item----------------------------------------------- -->
 
-<!-- fourth line -->
-<hr id =hrlura>
 
-<!-- fourth part of sentences -->
+<div class="row">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4"><img id = "Maria"src="img/prueba4/Maria.webp"></div>
+  <div class="col-sm-4"></div>
+</div>
 
-<!--
-<p  id="laura1"> Lina y </p>
-<p  id="laura2"> Juver </p>
-<p  id="laura3"> van al </p>
-<p  id="laura4"> cine </p> -->
+<div class="row">
+  <div class="col"></div>
+  <div class="col">
+  	<ul id="sortable3">
+   <li id= "3">sola</li> 
+   <li id= "2">jugando</li> 
+   <li id= "1">est&aacute</li> 
+   <li id= "0">Maria</li> 
+    </ul>
+  </div>
+  <div class="col"></div>
+   </div>
+
+
+<div class="row">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4"> <hr id="linea"></div>
+  <div class="col-sm-4"></div>
+</div>
+
+
+<!-------Segundo item----------------------------------------------- -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+
+            <div class="col">
+                <button id = button> Guardar</button>     
+                <h1 id="resultado">has tu mayor esfuerzo :)</h1>
+                <h1 id="Errores"></h1>
+                <h1 id="omision"></h1>
+            </div>
+
+         <!--   <div class="col"><button class="btn btn-primary" id="boton"onclick="location.href='Menu.html'" >Menu</button></div>
+        -->
+
+        </div>
+
+        <div id="hour"></div>
+        <div id="minute"></div>
+        <div id="second"></div>
+
+
+
+
+</div>
+
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <!-- Also include jQueryUI --> 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script> 
+	<script type="text/javascript" src="js/cronometro.js"></script>
 
     <script type="text/javascript" src="js/prueba4.js"></script> 
-<!--
-<script> 
-	
-//first line that divide
-$("#hr1").droppable();
-
-
-//first line of Juan
-$("#hrJuan").droppable();
-
-//first group of sentences
-
-$("#Juan1").draggable();
-$("#Juan2").draggable();
-$("#Juan3").draggable();
-$("#Juan4").draggable();
-
-
-//second line
-$("#hrperro").droppable();
-
-//second group of sentences 
-$("#perro1").draggable();
-$("#perro2").draggable();
-$("#perro3").draggable();
-$("#perro4").draggable();
-
-// third line
-
-$("#hrpajaros").droppable();
-
-
-
-//Third part of group of sentences
-
-$("#pajaros1").draggable();
-$("#pajaros2").draggable();
-$("#pajaros3").draggable();
-$("#pajaros4").draggable();
-
-//fourth line
-$("#hrlura").droppable();
-
-//fourth part of sentences
-
-$("#laura1").draggable();
-$("#laura2").draggable();
-$("#laura3").draggable();
-$("#laura4").draggable();
-
-</script>
-
-
-<input class="button" type="submit" name="Enviar">
--->
 
 </body>
 </html>
