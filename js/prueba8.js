@@ -113,8 +113,9 @@ $('#guardar5').click(function() {
 // boton-----------------------------------------
 $("#enviar").click(function(event) {
     $('#resultado').html("El total de puntos fue: " + aciertos);
-    $('#omision').html("El puntaje de omisiones fue: " + omisiones);
-    $('#Errores').html("El puntaje de errores fue: " + errores);
+    $('#errores').html("El total de errores fue: " + errores);
+ 
+
 
     //var segundo = JSON.parse(sessionStorage.getItem("segundo"));
     //var minuto = JSON.parse(sessionStorage.getItem("minuto"));

@@ -1,4 +1,5 @@
 
+var errores = 13;
 var omisiones = 13;
 var aciertos = 0;
 var pregunta = "pregunta";
@@ -13,9 +14,12 @@ $("#item_unoA").click(function() {
 	var item_unoA=$('#item_unoA').val();
 	if (pregunta == item_unoA ) {
 		aciertos++;
-		omisiones--;
+		omisiones--
+		errores--;
 		$('#item_unoA').prop('disabled', true);
 	}
+
+
 });
 
 $("#item_unoB").click(function() {
@@ -23,6 +27,7 @@ $("#item_unoB").click(function() {
 	if (preguntaf == item_unoB ) {
 		aciertos++; 
 		omisiones--; 
+		errores--;
 		$('#item_unoB').prop('disabled', true);
 
 	}
@@ -35,6 +40,7 @@ $("#item_dosA").click(function() {
 	if (admiracion == item_dosA ) {
 		aciertos++;
 		omisiones--;
+		errores--;
 		$('#item_dosA').prop('disabled', true);
 		
 	}
@@ -45,6 +51,7 @@ $("#item_dosB").click(function() {
 	if (admiracionf == item_dosB ) {
 		aciertos++; 
 		omisiones--;
+		errores--;
 		$('#item_dosB').prop('disabled', true);
 		
 	}
@@ -58,6 +65,7 @@ $("#item_tresA").click(function() {
 	if (pregunta == item_tresA ) {
 		aciertos++;
 		omisiones--;
+		errores--;
 		$('#item_tresA').prop('disabled', true);
 	}
 });
@@ -67,6 +75,7 @@ $("#item_tresB").click(function() {
 	if (preguntaf == item_tresB ) {
 		aciertos++;
 		omisiones--; 
+		errores--;
 		$('#item_tresB').prop('disabled', true);
 		
 	}
@@ -80,6 +89,7 @@ $("#item_cuatroA").click(function() {
 	if (coma == item_cuatroA ) {
 		aciertos++;
 		omisiones--;
+		errores--;
 		$('#item_cuatroA').prop('disabled', true);
 	}
 });
@@ -89,6 +99,7 @@ $("#item_cuatroB").click(function() {
 	if (coma == item_cuatroB ) {
 		aciertos++; 
 		omisiones--;
+		errores--;
 		$('#item_cuatroB').prop('disabled', true);
 	}
 });
@@ -101,6 +112,7 @@ $("#item_quintoA").click(function() {
 	if (coma == item_quintoA ) {
 		aciertos++;
 		omisiones--;
+		errores--;
 		$('#item_quintoA').prop('disabled', true);
 	}
 });
@@ -110,6 +122,7 @@ $("#item_quintoB").click(function() {
 	if (coma == item_quintoB ) {
 		aciertos++; 
 		omisiones--;
+		errores--;
 		$('#item_quintoB').prop('disabled', true);
 	}
 });
@@ -119,6 +132,7 @@ $("#item_quintoC").click(function() {
 	if (punto == item_quintoC ) {
 		aciertos++; 
 		omisiones--;
+		errores--;
 		$('#item_quintoC').prop('disabled', true);
 	}
 });
@@ -131,6 +145,7 @@ $("#item_sextoA").click(function() {
 	if (admiracion == item_sextoA ) {
 		aciertos++;
 		omisiones--;
+		errores--;
 		//alert(aciertos);
 		$('#item_sextoA').prop('disabled', true);
 	}
@@ -141,6 +156,7 @@ $("#item_sextoB").click(function() {
 	if (admiracionf == item_sextoB ) {
 		aciertos++; 
 		omisiones--;
+		errores--;
 		//alert(aciertos);
 		$('#item_sextoB').prop('disabled', true);
 	}
@@ -150,7 +166,8 @@ $("#item_sextoB").click(function() {
 // boton-----------------------------------------
 $("#enviar").click(function(event) {
     $('#resultado').html("El total de puntos fue: " + aciertos);
-    $('#omisiones').html("El puntaje de omisiones fue: " + omisiones);
+  	$('#omisiones').html("El total de puntos fue: " + omisiones);
+  	$('#errores').html("El total de puntos fue: " + errores);
 
     //var segundo = JSON.parse(sessionStorage.getItem("segundo"));
     //var minuto = JSON.parse(sessionStorage.getItem("minuto"));

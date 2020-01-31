@@ -41,7 +41,7 @@ if (puntajep1[0] === itemOrder2[0]  && puntajep1[1] === itemOrder2[1] && puntaje
 
 }
 else  {
-        errores--;
+        errores++;
 
 
 }
@@ -65,8 +65,8 @@ else  {
 
 
     $('#resultado').html("El total de puntos fue: " + aciertos);
-    $('#omision').html("El puntaje de omisiones fue: " + omisiones);
-    $('#Errores').html("El puntaje de errores fue: " + errores);
+    $('#errores').html("El total de errores fue: " + errores);
+    //$('#resultado').html("El total de puntos fue: " + aciertos);
 
     //var segundo = JSON.parse(sessionStorage.getItem("segundo"));
     //var minuto = JSON.parse(sessionStorage.getItem("minuto"));
@@ -76,7 +76,7 @@ else  {
  var segundo = JSON.parse(sessionStorage.getItem("segundo"));
     var minuto = JSON.parse(sessionStorage.getItem("minuto"));
 
-    $('#resultado').append(" El estudiante se demoró: " + segundo + " segundos " + "y " + minuto + " minutos");
+    $('#resultado').append(" El estudiante se demoro: " + segundo + " segundos " + "y " + minuto + " minutos");
 
 
 
