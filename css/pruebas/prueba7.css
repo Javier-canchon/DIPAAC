@@ -102,7 +102,7 @@ text-align: center;
     background-size: cover;
     margin-bottom: 15px;
 }
-#caliente {
+#lento {
             width: 100px;
             z-index: 1;
              border: solid 5px;
@@ -110,7 +110,7 @@ text-align: center;
             }
 
 
- #frio {
+ #rapido {
              width: 100px;
            z-index: 1;
            border: solid 5px;

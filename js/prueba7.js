@@ -1,28 +1,30 @@
 var puntos = 0;
 var omisiones = 8;
-
+var errores = 8;
 
 //drag an drop caliente - zone1i
-$("#caliente").draggable();
+$("#lento").draggable();
 $("#zone1i").droppable({
     //tolerance: 'fit',
-    accept: "#caliente",
+    accept: "#lento",
     //hoverClass: 'hovered',
     drop: function(event, ui) {
         puntos++;
         omisiones--;
         // alert(puntos);
+        $("#lento").draggable('disable')
+    
     }
 });
 
 // drag and drop frio - zone1d
-$("#frio").draggable();
+$("#rapido").draggable();
 $("#zone1d").droppable({
-        accept: "#frio",
+        accept: "#rapido",
         drop: function(event, ui) {
             puntos++;
             omisiones--;
-            //alert(puntos);
+    $("#rapido").draggable('disable') 
         }
     }
 
@@ -37,7 +39,7 @@ $("#zone2i").droppable({
         drop: function(event, ui) {
             puntos++;
             omisiones--;
-            //alert(puntos);
+            $("#feliz").draggable('disable')
         }
     }
 
@@ -50,7 +52,7 @@ $("#zone2d").droppable({
         drop: function(event, ui) {
             puntos++;
             omisiones--;
-            //alert(puntos);
+            $("#triste").draggable('disable')
         }
     }
 
@@ -64,7 +66,7 @@ $("#zone3i").droppable({
         drop: function(event, ui) {
             puntos++;
             omisiones--;
-            //alert(puntos);
+            $("#cerrado").draggable('disable')
         }
     }
 
@@ -77,7 +79,7 @@ $("#zone3d").droppable({
         drop: function(event, ui) {
             puntos++;
             omisiones--;
-            //alert(puntos);
+            $("#abierto").draggable('disable')
         }
     }
 
@@ -92,7 +94,7 @@ $("#zone4i").droppable({
     drop: function(event, ui) {
         puntos++;
         omisiones--;
-        //alert(puntos);
+      $("#dia").draggable('disable')
     }
 });
 
@@ -104,37 +106,17 @@ $("#zone4d").droppable({
     drop: function(event, ui) {
         puntos++;
         omisiones--;
-        //alert(puntos);
+        $("#noche").draggable('disable')
     }
 });
 
 
-/*
-// puntos por comisiones
-$("#frio").draggable();
-$("#caliente").draggable();
-$("#triste").draggable();
-$("#feliz").draggable();
-$("#cerrado").draggable();
-$("#abierto").draggable();
-$("#dia").draggable();
-
-$("#zone1i").droppable({
-    accept: "#dia",
-    drop: function(event, ui) {
-        comision++;
-         }
-});
-*/
-
-
-//var comision = puntos - 4;
 
 
 // boton de resultado
 $("#enviar").click(function(event) {
     $('#resultado').html(" El total de puntos fue: " + puntos );
-    $('#omisiones').html("El total de puntos por errores fue " + omisiones );
+    $('#errores').html("El total de puntos por errores fue " + omisiones );
    //$('#comision').html("El total de puntos por comision fue " + comision); 
 
 
