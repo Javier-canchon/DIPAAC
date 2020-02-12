@@ -5,12 +5,18 @@ var errores = 0;
 
 $('#guardar1').click(function() {
 
-   if ($('#transporte').val() === 'transporte'||$('#transporte').val() === 'Transporte'||$('#transporte').val() === 'TRANSPORTE') 
+    //var tran = $('#transporte').val();
+    //var res = str.tolowercase();
+    //document.getElementById("transporte").innerHTML = res;
+
+
+
+   if ($('#transporte').val().toLowerCase()=== 'transporte'||$('#transporte').val().toLowerCase()=== "trasporte") 
      {
      	aciertos++
      	$('#guardar1').unbind("click");
      	$('#guardar1').css('color', 'black');
-    
+        
        
     } else  {
     	errores++
@@ -25,7 +31,7 @@ $('#guardar1').click(function() {
 
 $('#guardar2').click(function() {
 
-   if ($('#vestir').val() === 'vestir'||$('#vestir').val() === 'ropa'||$('#vestir').val() === 'bestir') 
+   if ($('#vestir').val().toLowerCase() === 'vestir'||$('#vestir').val().toLowerCase() === 'ropa'||$('#vestir').val().toLowerCase() === 'bestir') 
      {
      	aciertos++
      	$('#guardar2').unbind("click");
@@ -47,7 +53,7 @@ $('#guardar2').click(function() {
 
 $('#guardar3').click(function() {
 
-   if ($('#frutas').val() === 'frutas'||$('#frutas').val() === 'fruta') 
+   if ($('#frutas').val().toLowerCase() === 'frutas'||$('#frutas').val().toLowerCase() === 'fruta') 
      {
      	aciertos++
      	$('#guardar3').unbind("click");
@@ -69,7 +75,7 @@ $('#guardar3').click(function() {
 
 $('#guardar4').click(function() {
 
-   if ($('#cocina').val() === 'cocina'||$('#cocina').val() === 'Cocina'||$('#cocina').val() === 'cosina') 
+   if ($('#cocina').val().toLowerCase() === 'cocina'||$('#cocina').val().toLowerCase() ==='cosina') 
      {
      	aciertos++
      	$('#guardar4').unbind("click");
@@ -91,7 +97,7 @@ $('#guardar4').click(function() {
 
 $('#guardar5').click(function() {
 
-   if ($('#colores').val() === 'colores'||$('#colores').val() === 'Colores') 
+   if ($('#colores').val().toLowerCase() === 'colores'||$('#colores').val().toLowerCase() === 'color') 
      {
      	aciertos++
      	$('#guardar5').unbind("click");

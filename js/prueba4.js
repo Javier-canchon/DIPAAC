@@ -16,6 +16,13 @@ var puntajep2 = ["0","1","2","3"];
 
    $('button').button().click(function() {
    var itemOrder = $('#sortable1').sortable("toArray");
+
+for (var i = Things.length - 1; i >= 0; i--) {
+	Things[i]
+}
+
+alert
+
    var itemOrder2 = $('#sortable2').sortable("toArray");
    var itemOrder3 = $('#sortable3').sortable("toArray");
 /* Condicional 1 el oso duerme*/
