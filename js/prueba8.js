@@ -3,15 +3,16 @@
 var aciertos = 0;
 var errores = 0;
 
+
 $('#guardar1').click(function() {
 
     //var tran = $('#transporte').val();
     //var res = str.tolowercase();
     //document.getElementById("transporte").innerHTML = res;
 
-
-
-   if ($('#transporte').val().toLowerCase()=== 'transporte'||$('#transporte').val().toLowerCase()=== "trasporte") 
+ 
+            
+   if ($('#transporte').val().toLowerCase().trim()=== 'transporte'||$('#transporte').val().toLowerCase().trim()=== "trasporte") 
      {
      	aciertos++
      	$('#guardar1').unbind("click");
@@ -31,7 +32,7 @@ $('#guardar1').click(function() {
 
 $('#guardar2').click(function() {
 
-   if ($('#vestir').val().toLowerCase() === 'vestir'||$('#vestir').val().toLowerCase() === 'ropa'||$('#vestir').val().toLowerCase() === 'bestir') 
+   if ($('#vestir').val().toLowerCase().trim() === 'vestir'||$('#vestir').val().toLowerCase().trim() === 'ropa'||$('#vestir').val().toLowerCase().trim() === 'bestir') 
      {
      	aciertos++
      	$('#guardar2').unbind("click");
@@ -53,7 +54,7 @@ $('#guardar2').click(function() {
 
 $('#guardar3').click(function() {
 
-   if ($('#frutas').val().toLowerCase() === 'frutas'||$('#frutas').val().toLowerCase() === 'fruta') 
+   if ($('#frutas').val().toLowerCase().trim() === 'frutas'||$('#frutas').val().toLowerCase().trim() === 'fruta') 
      {
      	aciertos++
      	$('#guardar3').unbind("click");
@@ -75,7 +76,7 @@ $('#guardar3').click(function() {
 
 $('#guardar4').click(function() {
 
-   if ($('#cocina').val().toLowerCase() === 'cocina'||$('#cocina').val().toLowerCase() ==='cosina') 
+   if ($('#cocina').val().toLowerCase().trim() === 'cocina'||$('#cocina').val().toLowerCase().trim() ==='cosina') 
      {
      	aciertos++
      	$('#guardar4').unbind("click");
@@ -97,7 +98,7 @@ $('#guardar4').click(function() {
 
 $('#guardar5').click(function() {
 
-   if ($('#colores').val().toLowerCase() === 'colores'||$('#colores').val().toLowerCase() === 'color') 
+   if ($('#colores').val().toLowerCase().trim() === 'colores'||$('#colores').val().toLowerCase().trim() === 'color') 
      {
      	aciertos++
      	$('#guardar5').unbind("click");
