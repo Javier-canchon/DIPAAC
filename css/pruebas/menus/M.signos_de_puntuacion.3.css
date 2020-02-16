@@ -44,3 +44,17 @@ font-size: 30PX;
    margin-left: auto;
    
     }
+
+    select
+  {
+    font-size: 25px;
+    background-color: #F9FDFD;
+    color: #E91B1B;
+  }
+
+  body {
+
+  font-size: 30px;
+
+}
+
