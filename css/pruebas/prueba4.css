@@ -12,6 +12,25 @@
 	font-family: "bom";
 	display: grid;
 }*/
+#boton {
+display: block;
+
+            width: 100px;
+            height: 70px;
+            background-color: #26D4E4;
+            margin-left: auto;
+            margin-right: auto;
+}
+
+#enviar {
+display: block;
+
+            width: 100px;
+            background-color: #26D4E4;
+            margin-left: auto;
+            margin-right: auto;
+}
+
 
 
 
@@ -41,6 +60,7 @@
       border :solid 2px;
       cursor: pointer;
       font-size: 30px;
+       background: #67D9F5;
 
 
     }
@@ -67,6 +87,7 @@
       border :solid 2px;
       cursor: pointer;
       font-size: 30px;
+      background: #67D9F5;
 
 
     }
@@ -93,6 +114,7 @@
       border :solid 2px;
       cursor: pointer;
       font-size: 30px;
+       background: #67D9F5;
 
 
     }

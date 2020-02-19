@@ -14,14 +14,13 @@ var puntajep2 = ["0","1","2","3"];
     $('#sortable2').sortable();
     $('#sortable3').sortable();
 
-   $('button').button().click(function() {
+   $('#enviar').button().click(function() {
    var itemOrder = $('#sortable1').sortable("toArray");
 
-for (var i = Things.length - 1; i >= 0; i--) {
-	Things[i]
-}
+//for (var i = Things.length - 1; i >= 0; i--) {
+//	Things[i]
+//}
 
-alert
 
    var itemOrder2 = $('#sortable2').sortable("toArray");
    var itemOrder3 = $('#sortable3').sortable("toArray");
@@ -30,8 +29,7 @@ alert
 if (puntajep1[0] === itemOrder[0]  && puntajep1[1] === itemOrder[1] && puntajep1[2] === itemOrder[2] )
  { 
           aciertos++;
-
-
+           // alert(aciertos);
 }
 else  {
         errores++;
@@ -70,23 +68,13 @@ else  {
 
 /*--------------------------------------------------*/
 
+ $('#resultado').html("El total de puntos fue: " + aciertos);
+    $('#errores').html("El puntaje de errores fue: " + errores);
 
-    $('#resultado').html("El total de puntos fue: " + aciertos);
-    $('#errores').html("El total de errores fue: " + errores);
-    //$('#resultado').html("El total de puntos fue: " + aciertos);
-
-    //var segundo = JSON.parse(sessionStorage.getItem("segundo"));
-    //var minuto = JSON.parse(sessionStorage.getItem("minuto"));
-
-    //$('#resultado').append("  El estudiante se demoró: " + segundo + " segundos " + "y " + minuto + " minutos");
-
- var segundo = JSON.parse(sessionStorage.getItem("segundo"));
+    var segundo = JSON.parse(sessionStorage.getItem("segundo"));
     var minuto = JSON.parse(sessionStorage.getItem("minuto"));
 
-    $('#resultado').append(" El estudiante se demoro: " + segundo + " segundos " + "y " + minuto + " minutos");
-
-
-
+    $('#resultado').append("  El estudiante se demoró: " + segundo + " segundos " + "y " + minuto + " minutos");
 
 
 
