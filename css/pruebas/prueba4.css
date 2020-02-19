@@ -63,6 +63,7 @@ display: block;
        background: #67D9F5;
 
 
+
     }
 
 
@@ -115,9 +116,10 @@ display: block;
       cursor: pointer;
       font-size: 30px;
        background: #67D9F5;
+       }
 
 
-    }
+
 
 
 #Maria{
@@ -130,7 +132,57 @@ display: block;
 
 }
 
+/*--------------------------------------------------*/
 
+#sortable4 li{
+      display: inline;
+      padding-left: 2px;
+      padding-right: 2px;
+      border :solid 2px;
+      cursor: pointer;
+      font-size: 30px;
+       background: #67D9F5;
+       }
+
+
+
+
+
+#Martha{
+  width:350px;
+    height:350px;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/*--------------------------------------------------*/
+
+#sortable5 li{
+      display: inline;
+      padding-left: 2px;
+      padding-right: 2px;
+      border :solid 2px;
+      cursor: pointer;
+      font-size: 30px;
+       background: #67D9F5;
+       }
+
+
+
+
+
+#Pajaro{
+  width:350px;
+    height:350px;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 
 
 

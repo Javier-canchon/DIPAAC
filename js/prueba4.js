@@ -13,17 +13,15 @@ var puntajep2 = ["0","1","2","3"];
    $('#sortable1').sortable();
     $('#sortable2').sortable();
     $('#sortable3').sortable();
+    $('#sortable4').sortable();
+    $('#sortable5').sortable();
 
    $('#enviar').button().click(function() {
    var itemOrder = $('#sortable1').sortable("toArray");
-
-//for (var i = Things.length - 1; i >= 0; i--) {
-//	Things[i]
-//}
-
-
    var itemOrder2 = $('#sortable2').sortable("toArray");
    var itemOrder3 = $('#sortable3').sortable("toArray");
+   var itemOrder4 = $('#sortable4').sortable("toArray");
+   var itemOrder5 = $('#sortable5').sortable("toArray");
 /* Condicional 1 el oso duerme*/
 
 if (puntajep1[0] === itemOrder[0]  && puntajep1[1] === itemOrder[1] && puntajep1[2] === itemOrder[2] )
@@ -65,6 +63,37 @@ else  {
 
 
 }
+
+
+/* Condicional 4 Martha tiene un perro*/
+
+if (puntajep2[0] === itemOrder4[0]  && puntajep2[1] === itemOrder4[1] && puntajep2[2] === itemOrder4[2] && puntajep2[3] === itemOrder4[3])
+ { 
+          aciertos++;
+
+
+}
+else  {
+         errores++;
+
+
+}
+
+
+/* Condicional 5 El pajaro vuela alto*/
+
+if (puntajep2[0] === itemOrder5[0]  && puntajep2[1] === itemOrder5[1] && puntajep2[2] === itemOrder5[2] && puntajep2[3] === itemOrder5[3])
+ { 
+          aciertos++;
+
+
+}
+else  {
+         errores++;
+
+
+}
+
 
 /*--------------------------------------------------*/
 
