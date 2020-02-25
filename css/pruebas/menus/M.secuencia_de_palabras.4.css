@@ -1,0 +1,97 @@
+h1{
+	font-size: 30px;
+color: #20bcd5;
+/*text-align: center;*/
+
+}
+
+
+#titulo{
+   
+            color: #20bcd5;
+            text-align: center;
+            border: solid 3px;
+
+}
+
+
+#PMAS{
+
+font-size: 30PX;
+
+
+}
+
+
+#boton1{
+
+	display: block;
+           width: 100px;
+   height: 40px;
+   background-color: #26D4E4;
+   margin-right: auto;
+   margin-left: auto;
+   
+    }
+
+    #boton2{
+
+  display: block;
+           width: 100px;
+   height: 40px;
+   background-color: #26D4E4;
+   margin-right: auto;
+   margin-left: auto;
+   
+    }
+
+    select
+  {
+    font-size: 25px;
+    background-color: #F9FDFD;
+    color: #E91B1B;
+  }
+
+  body {
+
+  font-size: 30px;
+
+}
+
+#sortable li{
+      display: inline;
+      padding-left: 3px;
+      padding-right: 3px;
+      border :solid 2px;
+      cursor: pointer;
+      font-size: 30px;
+       background: #67D9F5;
+
+
+
+    }
+
+    #probar{
+
+  display: block;
+           width: 100px;
+   height: 40px;
+   background-color: #26D4E4;
+   
+   
+    }
+
+    #Carlos{
+  width:350px;
+    height:350px;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#center{
+
+text-align: justify;
+}

@@ -1,0 +1,45 @@
+
+#boton {
+display: block;
+
+			width: 200px;
+    		height: 70px;
+  			background-color: #26D4E4;
+			margin-left: auto;
+			margin-right: auto;
+}
+
+#titulo{
+   
+            color: #20bcd5;
+            text-align: center;
+            border: solid 3px;
+
+}
+
+
+h1{
+	font-size: 30px;
+color: #20bcd5;
+/*text-align: center;*/
+
+}
+
+
+#Manuela{
+	 width: 230px;
+    height: 230px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    border: solid 1px;
+    background-size: cover;
+    margin-bottom: 15px;
+
+}
+
+.M{
+			display:block;
+			margin-left: auto;
+			margin-right: auto;
+
+}

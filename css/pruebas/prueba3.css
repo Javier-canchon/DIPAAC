@@ -15,7 +15,7 @@ text-align: center;
 
 
 
-#boton{
+#boton2{
 
   display: block;
            width: 100px;
@@ -49,3 +49,16 @@ text-align: center;
             color: #20bcd5;
             text-align: center;
             border: solid 3px;
+
+}
+
+#boton{
+
+  display: block;
+           width: 100px;
+   height: 40px;
+   background-color: #26D4E4;
+   margin-right: auto;
+   margin-left: auto;
+   
+        }

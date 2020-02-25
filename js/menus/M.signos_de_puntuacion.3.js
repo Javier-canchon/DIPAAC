@@ -12,9 +12,13 @@ $("#item_dosB").click(function() {
 	var item_dosB=$('#item_dosB').val();
 	if (punto == item_dosB ) {
 		
-		 
+		 aciertos++;
 		
 		  $('#item_dosB').prop('disabled', true);
+
+		  if (aciertos === 3) {
+		  	$("#boton2").css("display", "block");
+		  }
 	}
 });
 
@@ -24,30 +28,39 @@ $("#item_dosB").click(function() {
 $("#item_cuatroA").click(function() {
 	var item_cuatroA=$('#item_cuatroA').val();
 	if (coma == item_cuatroA ) {
-		aciertos++;
-		omisiones--;
-		errores--;
-		$('#item_cuatroA').prop('disabled', true);
+		
+		 aciertos++;
+		
+		  $('#item_cuatroA').prop('disabled', true);
+
+		  if (aciertos === 3) {
+		  	$("#boton2").css("display", "block");
+		  }
 	}
 });
+
 
 $("#item_cuatroB").click(function() {
 	var item_cuatroB=$('#item_cuatroB').val();
 	if (coma == item_cuatroB ) {
-		aciertos++; 
-		omisiones--;
-		errores--;
-		$('#item_cuatroB').prop('disabled', true);
+		
+		 aciertos++;
+		
+		  $('#item_cuatroB').prop('disabled', true);
+
+		  if (aciertos === 3) {
+		  	$("#boton2").css("display", "block");
+		  }
 	}
 });
 
 
 
-if (aciertos===3) {
+//if (aciertos===1) {
 
 
-$("#boton2").css("display", "block");
-}
+//$("#boton2").css("display", "block");
+//}
 
 
 })

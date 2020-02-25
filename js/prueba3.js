@@ -164,7 +164,7 @@ $("#item_sextoB").click(function() {
 
 
 // boton-----------------------------------------
-$("#enviar").click(function(event) {
+$("#boton2").click(function(event) {
     $('#resultado').html("El total de puntos fue: " + aciertos);
   	$('#omisiones').html("El total de puntos fue: " + omisiones);
   	$('#errores').html("El total de puntos fue: " + errores);

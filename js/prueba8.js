@@ -4,7 +4,7 @@ var aciertos = 0;
 var errores = 0;
 
 
-$('#guardar1').click(function() {
+$('#enviar').click(function() {
 
     //var tran = $('#transporte').val();
     //var res = str.tolowercase();
@@ -12,7 +12,7 @@ $('#guardar1').click(function() {
 
  
             
-   if ($('#transporte').val().toLowerCase().trim()=== 'transporte'||$('#transporte').val().toLowerCase().trim()=== "trasporte") 
+   if ($('#transporte').val().toLowerCase().trim()=== 'transporte'||$('#transporte').val().toLowerCase().trim()=== "trasporte"||$('#transporte').val().toLowerCase().trim()=== "transportes") 
      {
      	aciertos++
      	$('#guardar1').unbind("click");
@@ -25,12 +25,12 @@ $('#guardar1').click(function() {
         $('#guardar1').css('color', 'black');
        
    }
-});
+//});
 
 /*----SEGUNDA PREGUNTA--------------------------------*/
 
 
-$('#guardar2').click(function() {
+//$('#guardar2').click(function() {
 
    if ($('#vestir').val().toLowerCase().trim() === 'vestir'||$('#vestir').val().toLowerCase().trim() === 'ropa'||$('#vestir').val().toLowerCase().trim() === 'bestir') 
      {
@@ -45,14 +45,14 @@ $('#guardar2').click(function() {
         $('#guardar2').css('color', 'black');
        
    }
-});
+//});
 
 
 /*----TERCERA PREGUNTA--------------------------------*/
 
 
 
-$('#guardar3').click(function() {
+//$('#guardar3').click(function() {
 
    if ($('#frutas').val().toLowerCase().trim() === 'frutas'||$('#frutas').val().toLowerCase().trim() === 'fruta') 
      {
@@ -67,14 +67,14 @@ $('#guardar3').click(function() {
         $('#guardar3').css('color', 'black');
        
    }
-});
+//});
 
 
 /*----CUARTA PREGUNTA--------------------------------*/
 
 
 
-$('#guardar4').click(function() {
+//$('#guardar4').click(function() {
 
    if ($('#cocina').val().toLowerCase().trim() === 'cocina'||$('#cocina').val().toLowerCase().trim() ==='cosina') 
      {
@@ -89,14 +89,14 @@ $('#guardar4').click(function() {
         $('#guardar4').css('color', 'black');
        
    }
-});
+//});
 
 
 /*----QUINTA PREGUNTA--------------------------------*/
 
 
 
-$('#guardar5').click(function() {
+//$('#guardar5').click(function() {
 
    if ($('#colores').val().toLowerCase().trim() === 'colores'||$('#colores').val().toLowerCase().trim() === 'color') 
      {
