@@ -19,7 +19,7 @@ $('#Casa').unbind("click");
 $('#Caza').unbind("click");
 });
 
-// pregunta sobre casa/ caza
+// pregunta sobre Hablando/ Ablando
 $("#Hablando").click(function(event) {
 	$('#Hablando').css('color', 'black');
 aciertos++;

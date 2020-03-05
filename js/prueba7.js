@@ -115,7 +115,7 @@ $("#zone4d").droppable({
 
 // boton de resultado
 $("#enviar").click(function(event) {
-    $('#resultado').html(" El total de puntos fue: " + puntos );
+    $('#resultado').html(" El total de puntos fue: " + puntos/2 );
     $('#errores').html("El total de puntos por errores fue " + omisiones );
    //$('#comision').html("El total de puntos por comision fue " + comision); 
 
