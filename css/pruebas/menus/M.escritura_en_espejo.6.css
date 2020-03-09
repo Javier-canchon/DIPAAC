@@ -1,0 +1,147 @@
+h1 {
+            font-size: 30px;
+            color: #20bcd5;
+            text-align: center;
+
+        }
+
+
+h2{
+    font-size: 30px;
+
+}
+
+#letra{font-size: 50px;
+            color: #20bcd5;
+
+
+}
+
+
+#titulo{
+   
+            color: #20bcd5;
+            text-align: center;
+            border: solid 3px;
+
+}
+
+
+
+#boton {
+display: block;
+
+            width: 100px;
+            height: 40px;
+            background-color: #26D4E4;
+            margin-left: auto;
+            margin-right: auto;
+}
+
+#enviar {
+display: block;
+
+            width: 100px;
+            height: 40px;
+            background-color: #26D4E4;
+            margin-left: auto;
+            margin-right: auto;
+}
+
+
+        #L1 {
+            width:100px;
+            margin-bottom: 10px;
+            height: 100px;
+           /* background: url('../img/prueba2/cancha.jpg') center center; */
+            background-size: auto;
+            border: solid 3px;
+            cursor: pointer;
+            background-size: cover;
+            /*padding-left: 7px;
+            padding-right: 7px;
+			*/}
+
+ #L2 {
+            width:100px;
+            margin-bottom: 10px;
+            height: 100px;
+           /* background: url('../img/prueba2/cancha.jpg') center center; */
+            background-size: auto;
+            border: solid 3px;
+            cursor: pointer;
+            background-size: cover;
+            /*padding-left: 7px;
+            padding-right: 7px;
+            */}
+
+             #L3 {
+            width:100px;
+            margin-bottom: 10px;
+            height: 100px;
+           /* background: url('../img/prueba2/cancha.jpg') center center; */
+            background-size: auto;
+            border: solid 3px;
+            cursor: pointer;
+            background-size: cover;
+            /*padding-left: 7px;
+            padding-right: 7px;
+            */}
+
+             #L4 {
+            width:100px;
+            margin-bottom: 10px;
+            height: 100px;
+           /* background: url('../img/prueba2/cancha.jpg') center center; */
+            background-size: auto;
+            border: solid 3px;
+            cursor: pointer;
+            background-size: cover;
+            /*padding-left: 7px;
+            padding-right: 7px;
+            */}
+
+		 
+         #T1 {
+            width:100px;
+            margin-bottom: 10px;
+            height: 100px;
+           /* background: url('../img/prueba2/cancha.jpg') center center; */
+            background-size: auto;
+            border: solid 3px;
+            cursor: pointer;
+            background-size: cover;
+    
+			}
+        
+        #T2 {
+            width:100px;
+            margin-bottom: 10px;
+            height: 100px;
+           /* background: url('../img/prueba2/cancha.jpg') center center; */
+            background-size: auto;
+            border: solid 3px;
+            cursor: pointer;
+            background-size: cover;
+    
+            }
+        
+
+
+
+#T3{
+            width:100px;
+            margin-bottom: 10px;
+            height: 100px;
+           /* background: url('../img/prueba2/cancha.jpg') center center; */
+            background-size: auto;
+            border: solid 3px;
+            cursor: pointer;
+            background-size: cover;
+    
+            }
+        
+
+
+
+
