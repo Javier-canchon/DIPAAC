@@ -14,7 +14,7 @@ $("#zone1i").droppable({
         // alert(puntos);
         $("#joven").draggable('disable')
 
-        if (puntos ==4) {
+        if (puntos ==2) {
             $("#boton2").css("display", "block");
 
 
@@ -32,7 +32,7 @@ $("#zone1d").droppable({
             
     $("#anciano").draggable('disable') 
 
-    if (puntos ==4) {
+    if (puntos ==2) {
             $("#boton2").css("display", "block");
 
 
@@ -55,7 +55,7 @@ $("#zone2i").droppable({
             $("#pesado").draggable('disable')
 
 
-            if (puntos ==4) {
+            if (puntos ==2) {
             $("#boton2").css("display", "block");
 
 
@@ -74,7 +74,7 @@ $("#zone2d").droppable({
             
             $("#liviano").draggable('disable')
         
-  if (puntos ==4) {
+  if (puntos ==2) {
             $("#boton2").css("display", "block");
 
 

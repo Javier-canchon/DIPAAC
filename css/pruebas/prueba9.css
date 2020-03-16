@@ -1,0 +1,170 @@
+
+
+
+#titulo{
+   
+            color: #20bcd5;
+            text-align: center;
+            border: solid 3px;
+        }
+
+
+#linea{
+	color: blue;
+	width: 100%;
+	height: 50px;
+}
+
+
+
+
+
+#p{
+	font-size: 30px;
+	display: inline;
+}
+
+ p.left{
+  	text-align: left;
+  display: inline;
+
+  }
+
+#PERRO{
+
+	width:350px;
+    height:350px;
+	margin-bottom: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+  #perro{
+	font-size: 30px;
+	margin-bottom: 10px;
+  	display: inline;
+	color: #313AEE
+  }
+
+
+  
+  #calabaza{
+	font-size: 30px;
+	margin-bottom: 10px;
+  	display: inline;
+	color: #313AEE
+  }
+
+#conejo{
+	font-size: 30px;
+	margin-bottom: 10px;
+  	display: inline;
+  	color: #313AEE
+
+  }
+
+
+
+  #espacio{ display: inline;
+
+
+  }
+/* botones de la primera pregunta*/
+
+
+
+
+#Perro{ 
+
+	margin : 15px; 
+
+
+    }
+
+
+  
+  #Calabaza{
+	
+	margin : 15px; 
+  	
+
+  }
+
+
+#Conejo{
+	margin : 15px; 
+	
+  
+  }
+
+/*---------------------------------------------------------------------*/
+
+#COMIDA{
+
+	width:350px;
+    height:350px;
+	margin-bottom: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+ #llanta{
+	font-size: 30px;
+	margin-bottom: 10px;
+  	display: inline;
+	color: #313AEE
+  }
+
+
+  
+  #plato{
+	font-size: 30px;
+	margin-bottom: 10px;
+  	display: inline;
+	color: #313AEE
+  }
+
+#comida{
+	font-size: 30px;
+	margin-bottom: 10px;
+  	display: inline;
+  	color: #313AEE
+
+  }
+
+
+
+  #espacio2{ display: inline;
+
+
+  }
+/* botones de la primera pregunta*/
+
+
+
+
+#Llanta{ 
+
+	margin : 15px; 
+
+
+    }
+
+
+  
+  #Plato{
+	
+	margin : 15px; 
+  	
+
+  }
+
+
+#Comida{
+	margin : 15px; 
+	
+  
+  }
