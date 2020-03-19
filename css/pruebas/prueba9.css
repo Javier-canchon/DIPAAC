@@ -141,7 +141,7 @@
 
 
   }
-/* botones de la primera pregunta*/
+/* botones de la segunda pregunta*/
 
 
 
@@ -164,6 +164,149 @@
 
 
 #Comida{
+	margin : 15px; 
+	
+  
+  }
+
+/*---------------------------------------------------------------------*/
+
+#OSO{
+
+	width:350px;
+    height:350px;
+	margin-bottom: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+ #oso{
+	font-size: 30px;
+	margin-bottom: 10px;
+  	display: inline;
+	color: #313AEE
+  }
+
+
+  
+  #carro{
+	font-size: 30px;
+	margin-bottom: 10px;
+  	display: inline;
+	color: #313AEE
+  }
+
+#amigo{
+	font-size: 30px;
+	margin-bottom: 10px;
+  	display: inline;
+  	color: #313AEE
+
+  }
+
+
+
+  #espacio3{ display: inline;
+
+
+  }
+/* botones de la tercera pregunta*/
+
+
+
+
+#Oso{ 
+
+	margin : 15px; 
+
+
+    }
+
+
+  
+  #Amigo{
+	
+	margin : 15px; 
+  	
+
+  }
+
+
+#Carro{
+	margin : 15px; 
+	
+  
+  }
+
+
+/*---------------------------------------------------------------------*/
+
+#CARLOS{
+
+	width:350px;
+    height:350px;
+	margin-bottom: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+ #rie{
+	font-size: 30px;
+	margin-bottom: 10px;
+  	display: inline;
+	color: #313AEE
+  }
+
+
+  
+  #come{
+	font-size: 30px;
+	margin-bottom: 10px;
+  	display: inline;
+	color: #313AEE
+  }
+
+#pinta{
+	font-size: 30px;
+	margin-bottom: 10px;
+  	display: inline;
+  	color: #313AEE
+
+  }
+
+
+
+  #espacio4{ display: inline;
+
+
+  }
+/* botones de la tercera pregunta*/
+
+
+
+
+#Pinta{ 
+
+	margin : 15px; 
+
+
+    }
+
+
+  
+  #Come{
+	
+	margin : 15px; 
+  	
+
+  }
+
+
+#Rie{
 	margin : 15px; 
 	
   
