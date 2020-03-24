@@ -311,3 +311,75 @@
 	
   
   }
+
+/*---------------------------------------------------------------------*/
+
+
+#TRICICLO{
+
+	width:350px;
+    height:350px;
+	margin-bottom: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+ #caballo{
+	font-size: 30px;
+	margin-bottom: 10px;
+  	display: inline;
+	color: #313AEE
+  }
+
+
+  
+  #triciclo{
+	font-size: 30px;
+	margin-bottom: 10px;
+  	display: inline;
+	color: #313AEE
+  }
+
+#raton{
+	font-size: 30px;
+	margin-bottom: 10px;
+  	display: inline;
+  	color: #313AEE
+
+  }
+
+
+
+  #espacio5{ display: inline;
+
+
+  }
+/* botones de la tercera pregunta*/
+
+
+
+
+#Raton{ 
+
+	margin : 15px; 
+
+
+    }
+
+
+  
+  #Caballo{
+	
+	margin : 15px; 
+  	
+
+  }
+
+
+#Tricilo{
+	margin : 15px; 
+	
+  
+  }

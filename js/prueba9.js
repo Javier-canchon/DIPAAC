@@ -20,6 +20,10 @@ $("#rie").css("display", "none");
 $("#pinta").css("display", "none");
 
 
+$("#triciclo").css("display", "none");
+$("#raton").css("display", "none");
+$("#caballo").css("display", "none");
+
 
 
 $('#Conejo').click(function() {
@@ -203,15 +207,15 @@ $('#Come').click(function() {
 
 
 
-$('#Oso').click(function() {
-	$('#Oso').css('color', 'black');
+$('#Triciclo').click(function() {
+	$('#Triciclo').css('color', 'black');
 
-	$("#espacio3").css("display","none");
-         $("#oso").css("display","inline");
+	$("#espacio5").css("display","none");
+         $("#triciclo").css("display","inline");
         
-         $('#Oso').unbind("click");
-         $('#Amigo').unbind("click");
-         $('#Carro').unbind("click");
+         $('#Tricilo').unbind("click");
+         $('#Raton').unbind("click");
+         $('#Caballo').unbind("click");
           aciertos ++;
      	errores --;
 
@@ -219,26 +223,24 @@ $('#Oso').click(function() {
   
 });
 
-$('#Amigo').click(function() {
-	$('#Amigo').css('color', 'black');
-	$("#espacio3").css("display","none");
-         $("#amigo").css("display","inline");
+$('#Raton').click(function() {
+	$('#Raton').css('color', 'black');
+	$("#espacio5").css("display","none");
+         $("#raton").css("display","inline");
 
-        $('#Oso').unbind("click");
-         $('#Amigo').unbind("click");
-         $('#Carro').unbind("click");
-     	
+        $('#Triciclo').unbind("click");
+         $('#Raton').unbind("click");
+         $('#Caballo').unbind("click");
 });
 
-$('#Carro').click(function() {
-	$('#Carro').css('color', 'black');
-	$("#espacio3").css("display","none");
-         $("#carro").css("display","inline");
+$('#Caballo').click(function() {
+	$('#Caballo').css('color', 'black');
+	$("#espacio5").css("display","none");
+         $("#caballo").css("display","inline");
 
-     		$('#Oso').unbind("click");
-         $('#Amigo').unbind("click");
-         $('#Carro').unbind("click");
-     	
+     		$('#Triciclo').unbind("click");
+         $('#Raton').unbind("click");
+         $('#Caballo').unbind("click");
 });
 
 
