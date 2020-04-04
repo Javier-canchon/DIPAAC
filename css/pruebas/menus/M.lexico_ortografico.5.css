@@ -1,4 +1,11 @@
 
+#PMAS{
+
+font-size: 30PX;
+
+
+}
+
 
 
 #titulo{
@@ -37,12 +44,13 @@
 
 #boton1{
 
-	display: block;
+  display: block;
            width: 100px;
-   height: 40px;
+   height: 80px;
    background-color: #26D4E4;
    margin-right: auto;
    margin-left: auto;
+   cursor: pointer;
    
     }
 
@@ -50,9 +58,31 @@
 
   display: block;
            width: 100px;
-   height: 40px;
+   height: 70px;
    background-color: #26D4E4;
    margin-right: auto;
    margin-left: auto;
+   cursor: pointer;
+  margin-top: 15px;
+
    
+    }
+    
+
+ #boton3{
+
+    display: block;
+           width: 100px;
+   height: 40px;
+   background-color: #26BAE4;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 30px;
+    cursor: pointer;
+   
+    }
+
+    #p{
+
+      color: black;
     }

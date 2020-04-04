@@ -27,10 +27,12 @@ font-size: 30PX;
 
 	display: block;
            width: 100px;
-   height: 40px;
-   background-color: #26D4E4;
+   height: 80px;
+   background-color:  #26BAE4;
    margin-right: auto;
    margin-left: auto;
+      margin-top: -20px;
+       cursor: pointer;
    
     }
 
@@ -38,9 +40,30 @@ font-size: 30PX;
 
   display: block;
            width: 100px;
-   height: 40px;
+   height: 70px;
    background-color: #26D4E4;
    margin-right: auto;
    margin-left: auto;
+    margin-top: -15px;
+    cursor: pointer;
+    }
+
+
+    #p{
+
+      color: black;
+    }
+
+
+ #boton3{
+
+    display: block;
+           width: 100px;
+   height: 40px;
+   background-color: #26BAE4;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 0px;
+    cursor: pointer;
    
     }

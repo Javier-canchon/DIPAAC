@@ -20,7 +20,7 @@ text-align: center;
   display: block;
            width: 100px;
    height: 40px;
-   background-color: #26D4E4;
+   background-color:#26BAE4;
    margin-right: auto;
    margin-left: auto;
    
@@ -62,3 +62,16 @@ text-align: center;
    margin-left: auto;
    
         }
+
+        #boton1{
+
+  display: block;
+           width: 100px;
+   height: 80px;
+   background-color:  #26BAE4;
+   margin-right: auto;
+   margin-left: auto;
+      margin-top: -20px;
+       cursor: pointer;
+   
+    }

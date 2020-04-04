@@ -198,3 +198,28 @@ p{
 	cursor: pointer;
 
 }
+
+
+
+#boton1{
+
+  display: block;
+           width: 100px;
+   height: 80px;
+   background-color: #26BAE4;
+   margin-right: auto;
+   margin-left: auto;
+   cursor: pointer;
+   
+    }
+
+#enviar{
+
+  display: block;
+           width: 100px;
+   height: 40px;
+   background-color:#26BAE4;
+   margin-right: auto;
+   margin-left: auto;
+   
+        }

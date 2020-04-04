@@ -1,8 +1,10 @@
+#PMAS{
+
+font-size: 30PX;
 
 
-#p{
-	font-size: 35px;
 }
+
 
 input[type=text] {
 	font-size: 30px;
@@ -39,6 +41,7 @@ input[type=text] {
 	margin-left: auto;
 	margin-right: auto;
 
+
 }
 
 
@@ -51,8 +54,53 @@ input[type=text] {
 	float: right;
    
     }
+#boton1{
+
+  display: block;
+           width: 100px;
+   height: 80px;
+   background-color:  #26BAE4;
+   margin-right: auto;
+   margin-left: auto;
+      margin-top: -20px;
+       cursor: pointer;
+   
+    }
 
     #boton2{
 
-    	float: right;
+  display: block;
+           width: 100px;
+   height: 70px;
+   background-color: #26D4E4;
+   margin-right: auto;
+   margin-left: auto;
+    margin-top: -15px;
+    cursor: pointer;
+    }
+
+
+    #p1{
+
+      color: black;
+      font-size: 30px;
+    }
+
+    #p2{
+
+      color: black;
+    }
+
+
+ #boton3{
+
+    display: block;
+           width: 100px;
+   height: 40px;
+   background-color: #26BAE4;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 0px;
+    cursor: pointer;
+   
     }

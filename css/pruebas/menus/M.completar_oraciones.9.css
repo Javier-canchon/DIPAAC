@@ -1,0 +1,187 @@
+
+
+
+
+
+
+
+
+
+
+
+#titulo{
+   
+            color: #20bcd5;
+            text-align: center;
+            border: solid 3px;
+        }
+
+
+
+
+#LIBRO{
+
+	width:350px;
+    height:350px;
+	margin-bottom: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+  #foto{
+	font-size: 30px;
+	margin-bottom: 10px;
+  	display: inline;
+	color: #313AEE
+  }
+
+
+  
+  #libro{
+	font-size: 30px;
+	margin-bottom: 10px;
+  	display: inline;
+	color: #313AEE
+  }
+
+#quezo{
+	font-size: 30px;
+	margin-bottom: 10px;
+  	display: inline;
+  	color: #313AEE
+
+  }
+
+
+
+  #espacio1{ display: inline;}
+
+#p{
+	font-size: 30px;
+	display: inline;
+}
+p.left{
+  	text-align: left;
+  display: inline;
+
+  }
+
+
+  
+/* botones de la primera pregunta*/
+
+
+
+
+#Libro{ 
+
+	margin : 15px; 
+
+
+    }
+
+
+  
+  #Foto{
+	
+	margin : 15px; 
+  	
+
+  }
+
+
+#Quezo{
+	margin : 15px; 
+	
+  
+  }
+
+
+
+
+#boton1{
+
+  display: block;
+           width: 100px;
+   height: 80px;
+   background-color: #26D4E4;
+   margin-right: auto;
+   margin-left: auto;
+   cursor: pointer;
+   
+    }
+
+
+    #boton2{
+
+  display: block;
+           width: 100px;
+   height: 70px;
+   background-color: #26D4E4;
+   margin-right: auto;
+   margin-left: auto;
+   cursor: pointer;
+  margin-top: 15px;
+
+   
+    }
+
+ #boton3{
+
+    display: block;
+           width: 100px;
+   height: 40px;
+   background-color: #26BAE4;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 30px;
+    cursor: pointer;
+   
+    }
+
+
+#boton1{
+
+  display: block;
+           width: 100px;
+   height: 80px;
+   background-color: #26D4E4;
+   margin-right: auto;
+   margin-left: auto;
+   cursor: pointer;
+   
+    }
+
+
+    #boton2{
+
+  display: block;
+           width: 100px;
+   height: 70px;
+   background-color: #26D4E4;
+   margin-right: auto;
+   margin-left: auto;
+   cursor: pointer;
+  margin-top: 15px;
+
+   
+    }
+
+ #boton3{
+
+    display: block;
+           width: 100px;
+   height: 40px;
+   background-color: #26BAE4;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 30px;
+    cursor: pointer;
+   
+    }
+
+    #p1{
+
+      color: black;
+    }

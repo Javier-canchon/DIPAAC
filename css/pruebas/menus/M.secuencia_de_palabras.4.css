@@ -23,28 +23,36 @@ font-size: 30PX;
 }
 
 
+#boton{
+color: black;
+   
+    }
 #boton1{
 
-	display: block;
+  display: block;
            width: 100px;
-   height: 40px;
+   height: 80px;
    background-color: #26D4E4;
    margin-right: auto;
    margin-left: auto;
+   cursor: pointer;
    
     }
+
 
     #boton2{
 
   display: block;
            width: 100px;
-   height: 40px;
+   height: 70px;
    background-color: #26D4E4;
    margin-right: auto;
    margin-left: auto;
+   cursor: pointer;
+  margin-top: 15px;
+
    
     }
-
     select
   {
     font-size: 25px;
@@ -95,3 +103,22 @@ font-size: 30PX;
 
 text-align: justify;
 }
+
+
+ #boton3{
+
+    display: block;
+           width: 100px;
+   height: 40px;
+   background-color: #26D4E4;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 30px;
+    cursor: pointer;
+   
+    }
+
+    #p{
+
+      color: black;
+    }

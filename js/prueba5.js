@@ -71,19 +71,19 @@ $('#Hola').unbind("click");
 
 
 // pregunta sobre vello/ bello
-$("#Vello").click(function(event) {
-	$('#Vello').css('color', 'black');
+$("#Hiena").click(function(event) {
+	$('#Hiena').css('color', 'black');
 aciertos++;
 omisiones--;
-$('#Vello').unbind("click");
-$('#Bello').unbind("click");
+$('#Hiena').unbind("click");
+$('#Llena').unbind("click");
 });
 
-$("#Bello").click(function(event) {
-	$('#Bello').css('color', 'black');
+$("#Llena").click(function(event) {
+	$('#Llena').css('color', 'black');
 errores++;
-$('#Vello').unbind("click");
-$('#Bello').unbind("click");
+$('#Hiena').unbind("click");
+$('#Llena').unbind("click");
 });
 
 
