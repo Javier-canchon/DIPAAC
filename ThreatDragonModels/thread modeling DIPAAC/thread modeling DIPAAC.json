@@ -6,7 +6,18 @@
   },
   "detail": {
     "contributors": [],
-    "diagrams": [],
+    "diagrams": [
+      {
+        "title": "ADAs",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      },
+      {
+        "title": "adasd",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 1
+      }
+    ],
     "reviewer": "JHON M"
   }
 }
