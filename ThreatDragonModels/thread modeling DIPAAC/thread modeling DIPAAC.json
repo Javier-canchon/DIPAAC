@@ -1,16 +1,12 @@
 {
   "summary": {
     "title": "thread modeling DIPAAC",
-    "owner": "JHON MENDEZ"
+    "owner": "JHON M",
+    "description": "DESARROLLO SOFTWARE SEGURO"
   },
   "detail": {
     "contributors": [],
-    "diagrams": [
-      {
-        "title": "LIMITES",
-        "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
-      }
-    ]
+    "diagrams": [],
+    "reviewer": "JHON M"
   }
 }
